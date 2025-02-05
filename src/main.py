@@ -1,6 +1,6 @@
-import spacy
 import re
 import os
+import spacy
 from pathlib import Path
 from spacy import displacy
 from docx import Document
@@ -14,6 +14,7 @@ files = os.listdir(base_path)
 for file in files:
     file_path = f"{base_path}{file}"
     doc = Document(file_path)
+    
 
     html = ""
 
