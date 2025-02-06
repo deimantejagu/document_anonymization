@@ -74,7 +74,7 @@ def select_names_generator(first_name):
         generate_names(MALE_LAST_NAME_ENDINGS, first_name)
 
 def create_training_data(type):
-    for i in range(10000):
+    for i in range(400):
         select_names_generator(fake.first_name())
 
     patterns = []
@@ -93,36 +93,47 @@ def generate_rules(patterns):
     ruler.add_patterns(patterns)
     nlp.to_disk("/NER/src/model") 
 
-patterns = create_training_data("PERSON")
-generate_rules(patterns)
-# print(patterns)
-# print(len(patterns))
+    with open("/NER/src/model/entity_ruler/patterns.jsonl", "w", encoding="utf-8") as f:
+        for pattern in patterns:
+            json.dump(pattern, f, ensure_ascii=False)  
+            f.write("\n")
 
-# # Print generated names
-# for name in NAMES:
-#     print(name)
-# print(len(NAMES))
+# patterns = create_training_data("PERSON")
+# generate_rules(patterns)
+# print(len(patterns))
 
 def test_model(model, text):
     doc = model(text)
     results = []
+    entities = []
     for ent in doc.ents:
-        results.append(ent.text)
+        entities.append((ent.start_char, ent.end_char, ent.label_))
+    if len(entities) > 0:
+        results = [text, {"entities": entities}]
+        return(results)
 
-    return(results)
-
-def save_data(file, data):
-    with open(file, "w", encoding="UTF-8") as f:
-        json.dump(data, f, indent=4)
+# TRAIN_DATA = [(text, {entities: [(start, end, label)]})]
 
 nlp = spacy.load("src/model")
 
-with open("src/text.txt", "r") as f:
+TRAIN_DATA = []
+with open("src/text.txt", "r", encoding="UTF-8") as f:
     text = f.read()
     hits = []
     results = test_model(nlp, text)
-    for result in results:
-        hits.append(result)
-print(hits)      
+    if results != None:
+        TRAIN_DATA.append(results)
 
-save_data("/NER/src/results.json", hits)
+# with open("src/text.txt", "r", encoding="UTF-8") as f:
+#     text = f.read()
+#     hits = []
+#     results = test_model(nlp, text)
+#     for result in results:
+#         hits.append(result)
+# print(hits)   
+
+def save_data(file, data):
+    with open(file, "w", encoding="UTF-8") as f:
+        json.dump(data, f, indent=4)   
+
+save_data("/NER/src/train_dataset.json", TRAIN_DATA)
