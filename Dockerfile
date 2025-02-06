@@ -1,6 +1,6 @@
 # docker build -t ner .
-# docker run -v C:/Users/Testinis/Desktop/spacy_named_entitty_recognition/src:/NER/src ner
-# docker run -v /Users/deimantejagucanskyte/Documents/work/spacy_named_entity_recognition/src:/NER/src ner
+# docker run -v C:/Users/Testinis/Desktop/document_anonymization/src:/NER/src ner
+# docker run -v /Users/deimantejagucanskyte/Documents/work/document_anonymization/src:/NER/src ner
 FROM python:3.11
 
 # Force BLIS to fallback to a generic config instead of cortexa57
