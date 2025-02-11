@@ -117,23 +117,17 @@ def test_model(model, text):
 nlp = spacy.load("src/model")
 
 TRAIN_DATA = []
+lines = []
 with open("src/text.txt", "r", encoding="UTF-8") as f:
     text = f.read()
-    hits = []
-    results = test_model(nlp, text)
-    if results != None:
-        TRAIN_DATA.append(results)
-
-# with open("src/text.txt", "r", encoding="UTF-8") as f:
-#     text = f.read()
-#     hits = []
-#     results = test_model(nlp, text)
-#     for result in results:
-#         hits.append(result)
-# print(hits)   
+    lines = text.split("\n")
+    for line in lines:
+        results = test_model(nlp, line)
+        if results != None:
+            TRAIN_DATA.append(results)
 
 def save_data(file, data):
     with open(file, "w", encoding="UTF-8") as f:
-        json.dump(data, f, indent=4)   
+        json.dump(data, f, indent=4, ensure_ascii=False)   
 
 save_data("/NER/src/train_dataset.json", TRAIN_DATA)

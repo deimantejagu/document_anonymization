@@ -1,6 +1,6 @@
 # docker build -t ner .
-# docker run -v C:/Users/Testinis/Desktop/document_anonymization/src:/NER/src ner
-# docker run -v /Users/deimantejagucanskyte/Documents/work/document_anonymization/src:/NER/src ner
+# docker run -v "/mnt/c/Users/Testinis/Desktop/document_ anonymization/src:/NER/src" ner
+
 FROM python:3.11
 
 # Force BLIS to fallback to a generic config instead of cortexa57
@@ -23,7 +23,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 RUN python -m spacy download lt_core_news_lg
 
 # Copy the rest of the application code into the container
-COPY ./src /NER/src
+COPY src/ /NER/src/
 
 # Command to run the application
-CMD ["python", "src/main.py"]
+CMD ["python", "/NER/src/main.py"]
