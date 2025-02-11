@@ -6,8 +6,10 @@ from spacy import displacy
 from docx import Document
 from faker import Faker
 from spacy.pipeline import EntityRuler
+from spacy.training import Example
 from spacy.lang.lt import Lithuanian
 import json
+import random
 
 # # Load the SpaCy model
 # nlp = spacy.load("lt_core_news_lg")
@@ -114,20 +116,59 @@ def test_model(model, text):
 
 # TRAIN_DATA = [(text, {entities: [(start, end, label)]})]
 
-nlp = spacy.load("src/model")
+# nlp = spacy.load("src/model")
 
-TRAIN_DATA = []
-lines = []
-with open("src/text.txt", "r", encoding="UTF-8") as f:
-    text = f.read()
-    lines = text.split("\n")
-    for line in lines:
-        results = test_model(nlp, line)
-        if results != None:
-            TRAIN_DATA.append(results)
+# TRAIN_DATA = []
+# with open("src/text.txt", "r", encoding="UTF-8") as f:
+#     text = f.read()
+#     lines = text.split("\n")
+#     for line in lines:
+#         results = test_model(nlp, line)
+#         if results != None:
+#             TRAIN_DATA.append(results)
 
 def save_data(file, data):
     with open(file, "w", encoding="UTF-8") as f:
         json.dump(data, f, indent=4, ensure_ascii=False)   
 
-save_data("/NER/src/train_dataset.json", TRAIN_DATA)
+# save_data("/NER/src/train_dataset.json", TRAIN_DATA)
+
+def load_data(file):
+    with open(file, "r", encoding="UTF-8") as f:
+        data = json.load(f)
+
+    return data
+
+def train_spacy(data, iterations):
+    nlp = spacy.blank("lt")
+    if "ner" not in nlp.pipe_names:
+        ner = nlp.create_pipe("ner")
+        nlp.add_pipe("ner", last=True)
+
+    for _, annotations in data:
+        for ent in annotations.get("entities"):
+            ner.add_label(ent[2])
+            
+    other_pipes = [pipe for pipe in nlp.pipe_names if pipe != "ner"]
+    with nlp.disable_pipes(*other_pipes):
+        optimizer = nlp.begin_training()
+        for itn in range(iterations):
+            print("Starting iteration " + str(itn))
+            random.shuffle(data)
+            losses = {}
+            examples = [Example.from_dict(nlp.make_doc(text), annotations) for text, annotations in data]
+            for example in examples:
+                nlp.update([example], drop=0.2, sgd=optimizer, losses=losses)
+            print(f"NER Loss: {losses['ner']:.4f}")
+
+        # Save the model checkpoint
+        if itn % 10 == 0:
+            model_path = f"src/model_checkpoint_{itn}"
+            nlp.to_disk(model_path)
+            print(f"Checkpoint saved to {model_path}")
+
+    return nlp
+
+TRAIN_DATA = load_data("/NER/src/train_dataset.json")
+nlp = train_spacy(TRAIN_DATA, 30)
+nlp.to_disk("src/model")
