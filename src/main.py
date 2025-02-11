@@ -8,46 +8,9 @@ from faker import Faker
 from spacy.pipeline import EntityRuler
 from spacy.training import Example
 from spacy.lang.lt import Lithuanian
+from sklearn.metrics import accuracy_score
 import json
 import random
-
-# # Load the SpaCy model
-# nlp = spacy.load("lt_core_news_lg")
-
-# # Load the document
-# base_path = 'src/files/'
-# files = os.listdir(base_path)
-# for file in files:
-#     file_path = f"{base_path}{file}"
-#     doc = Document(file_path)
-    
-#     html = ""
-
-#     for paragraph in doc.paragraphs:
-#         # Extract text from the paragraph
-#         processed_text = nlp(paragraph.text)
-#         html += displacy.render(processed_text, style="ent")
-
-#         # Change full names to initials
-#         for ent in processed_text.ents:
-#             if ent.label_ == "PERSON":
-#                 initials = re.sub(r'[^A-ZĄČĘĖĮŠŲŪŽ]', '', str(ent))  # Extract initials
-#                 if len(initials) == 2:
-#                     paragraph.text = paragraph.text.replace(ent.text, f"{initials[0]}. {initials[1]}.")
-#                 else:
-#                     paragraph.text = paragraph.text.replace(ent.text, f"{initials}.")
-
-#         # Delete personal code
-#         paragraph.text = re.sub(r',?\s*\.?(a\.k)?\.\s*\d{11},?', '', paragraph.text)
-
-#         # Delete birth date
-#         paragraph.text = re.sub(r'\.?,?\s*\bgim\w*\.?\s*(\d{4}-\d{2}-\d{2}|\d{4})?\s*m?.?,?', '', paragraph.text)
-
-#     # Save the modified document
-#     doc.save(f"src/processed_files/{file}")
-
-#     with open(f"src/processed_files/{Path(file).stem}.html", "w", encoding="UTF-8") as f:
-#         f.write(html)
 
 fake = Faker('lt_LT')
 
@@ -148,7 +111,7 @@ def train_spacy(data, iterations):
     for _, annotations in data:
         for ent in annotations.get("entities"):
             ner.add_label(ent[2])
-            
+
     other_pipes = [pipe for pipe in nlp.pipe_names if pipe != "ner"]
     with nlp.disable_pipes(*other_pipes):
         optimizer = nlp.begin_training()
@@ -161,14 +124,57 @@ def train_spacy(data, iterations):
                 nlp.update([example], drop=0.2, sgd=optimizer, losses=losses)
             print(f"NER Loss: {losses['ner']:.4f}")
 
-        # Save the model checkpoint
-        if itn % 10 == 0:
-            model_path = f"src/model_checkpoint_{itn}"
-            nlp.to_disk(model_path)
-            print(f"Checkpoint saved to {model_path}")
+            # Save the model checkpoint
+            if itn % 10 == 0:
+                model_path = f"src/model_checkpoint_{itn}"
+                nlp.to_disk(model_path)
+                print(f"Checkpoint saved to {model_path}")
 
     return nlp
 
-TRAIN_DATA = load_data("/NER/src/train_dataset.json")
-nlp = train_spacy(TRAIN_DATA, 30)
-nlp.to_disk("src/model")
+# TRAIN_DATA = load_data("/NER/src/train_dataset.json")
+# nlp = train_spacy(TRAIN_DATA, 30)
+# nlp.to_disk("src/model")
+
+# nlp = spacy.load("src/model_checkpoint_10")
+# doc = nlp(test)
+# for ent in doc.ents:
+#     print(ent.text, ent.label_)
+
+# Load the SpaCy model
+nlp = spacy.load("src/model_checkpoint_10")
+
+# Load the document
+base_path = 'src/files/'
+files = os.listdir(base_path)
+for file in files:
+    file_path = f"{base_path}{file}"
+    doc = Document(file_path)
+    
+    html = ""
+
+    for paragraph in doc.paragraphs:
+        # Extract text from the paragraph
+        processed_text = nlp(paragraph.text)
+        html += displacy.render(processed_text, style="ent")
+
+        # Change full names to initials
+        for ent in processed_text.ents:
+            if ent.label_ == "PERSON":
+                initials = re.sub(r'[^A-ZĄČĘĖĮŠŲŪŽ]', '', str(ent))  # Extract initials
+                if len(initials) == 2:
+                    paragraph.text = paragraph.text.replace(ent.text, f"{initials[0]}. {initials[1]}.")
+                else:
+                    paragraph.text = paragraph.text.replace(ent.text, f"{initials}.")
+
+        # Delete personal code
+        paragraph.text = re.sub(r',?\s*\.?(a\.k)?\.\s*\d{11},?', '', paragraph.text)
+
+        # Delete birth date
+        paragraph.text = re.sub(r'\.?,?\s*\bgim\w*\.?\s*(\d{4}-\d{2}-\d{2}|\d{4})?\s*m?.?,?', '', paragraph.text)
+
+    # Save the modified document
+    doc.save(f"src/processed_files/{file}")
+
+    with open(f"src/processed_files/{Path(file).stem}.html", "w", encoding="UTF-8") as f:
+        f.write(html)
