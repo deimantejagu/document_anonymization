@@ -814,11 +814,6 @@
                     "PERSON"
                 ],
                 [
-                    67,
-                    78,
-                    "PERSON"
-                ],
-                [
                     200,
                     217,
                     "PERSON"
@@ -6332,7 +6327,7 @@
                     "PERSON"
                 ],
                 [
-                    473,
+                    464,
                     482,
                     "PERSON"
                 ]
@@ -7676,11 +7671,6 @@
                     332,
                     341,
                     "PERSON"
-                ],
-                [
-                    433,
-                    440,
-                    "PERSON"
                 ]
             ]
         }
@@ -8601,11 +8591,6 @@
                     "PERSON"
                 ],
                 [
-                    163,
-                    173,
-                    "PERSON"
-                ],
-                [
                     244,
                     260,
                     "PERSON"
@@ -8669,11 +8654,6 @@
                 [
                     39,
                     58,
-                    "PERSON"
-                ],
-                [
-                    180,
-                    192,
                     "PERSON"
                 ],
                 [
@@ -11078,11 +11058,6 @@
                     "PERSON"
                 ],
                 [
-                    97,
-                    114,
-                    "PERSON"
-                ],
-                [
                     214,
                     231,
                     "PERSON"
@@ -11310,11 +11285,6 @@
                     "PERSON"
                 ],
                 [
-                    128,
-                    145,
-                    "PERSON"
-                ],
-                [
                     246,
                     257,
                     "PERSON"
@@ -11412,11 +11382,6 @@
                 [
                     40,
                     55,
-                    "PERSON"
-                ],
-                [
-                    128,
-                    145,
                     "PERSON"
                 ],
                 [
@@ -14292,11 +14257,6 @@
                 [
                     4,
                     18,
-                    "PERSON"
-                ],
-                [
-                    178,
-                    185,
                     "PERSON"
                 ]
             ]
@@ -33533,6 +33493,18 @@
                 [
                     31,
                     39,
+                    "PERSON"
+                ]
+            ]
+        }
+    ],
+    [
+        "1591.\tNagis ir Naga dalyvavo kūrybiniuose užsiėmimuose, kur aptarta, kaip menas gali suvienyti skirtingas kultūras.",
+        {
+            "entities": [
+                [
+                    15,
+                    19,
                     "PERSON"
                 ]
             ]
