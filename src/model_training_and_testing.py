@@ -1,15 +1,17 @@
 import spacy
 from spacy.training import Example
 import random
-from sklearn.metrics import classification_report
-from utils import save_data
+from utils import save_data, load_data
 
-def train_spacy(model_path, iterations, data):
+def train_spacy(model_path, data_path, iterations):
     nlp = spacy.load(model_path)
     if "ner" not in nlp.pipe_names:
         ner = nlp.create_pipe("ner")
         nlp.add_pipe("ner", last=True)
+    else:
+        ner = nlp.get_pipe("ner")
 
+    data = load_data(data_path)
     for _, annotations in data:
         for ent in annotations.get("entities"):
             ner.add_label(ent[2])
