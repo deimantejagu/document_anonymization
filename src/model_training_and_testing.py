@@ -34,12 +34,12 @@ def train_spacy(model_path, iterations, data):
                 nlp.to_disk(model_path)
                 print(f"Checkpoint saved to {model_path}")
 
-def get_models_data(model, line):
+def get_models_predictions(model, line):
     doc = model(line)
     results = []
     entities = []
     for ent in doc.ents:
-        entities.append((ent.start_char, ent.end_char, ent.label_))
+        entities.append((ent.text))
     if len(entities) > 0:
         results = [line, {"entities": entities}]
 
@@ -48,13 +48,13 @@ def get_models_data(model, line):
 def test_spacy(model_path, data):
     nlp = spacy.load(model_path)
 
-    TRAIN_DATA = []
+    train_data = []
     with open(data, "r", encoding="UTF-8") as f:
         text = f.read()
         lines = text.split("\n")
         for line in lines:
-            results = get_models_data(nlp, line)
+            results = get_models_predictions(nlp, line)
             if results != None:
-                TRAIN_DATA.append(results)
+                train_data.append(results)
 
-    save_data("/NER/src/results.json", TRAIN_DATA)
+    save_data("/NER/src/results.json", train_data)
