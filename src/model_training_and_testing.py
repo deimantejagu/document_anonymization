@@ -3,6 +3,7 @@ import random
 import pickle
 from utils import load_data, save_data
 from spacy.training import Example
+from sklearn.metrics import precision_score, recall_score, f1_score
 
 def train_spacy(model_path, optimizer_path, data_path, iterations):
     nlp = spacy.load(model_path)
@@ -48,13 +49,38 @@ def train_spacy(model_path, optimizer_path, data_path, iterations):
 def test_spacy(model_path, data):
     nlp = spacy.load(model_path)
     lines = load_data(data)
-    predictions = []  
-    for line in lines:
-        doc = nlp(line[0])
-        entities = [ent.text for ent in doc.ents]
-        if entities: 
-            prediction = [line[0], {"entities": entities}]
-            predictions.append(prediction)
-    print(predictions[0])
+    true_entities_all = []
+    pred_entities_all = []
+    predictions = []
+    for line, annotation in lines:
+        labels = [tuple(x) for x in annotation["entities"]]
+        doc = nlp(line)
+        pred_entities = [(ent.start_char, ent.end_char, ent.label_) for ent in doc.ents]
+
+        label_set = set(labels)
+        prediction_set = set(pred_entities)
+
+        for label in label_set:
+            true_entities_all.append(1)
+            if label in prediction_set:
+                pred_entities_all.append(1)
+            else:
+                pred_entities_all.append(0)
+
+        for prediction in prediction_set:
+            if prediction not in label_set:
+                true_entities_all.append(0)
+                pred_entities_all.append(1)
+
+        entities_texts = [ent.text for ent in doc.ents]
+        predictions.append([line, {"entities": entities_texts}])
+
+    precision = precision_score(true_entities_all, pred_entities_all)
+    recall = recall_score(true_entities_all, pred_entities_all)
+    f1 = f1_score(true_entities_all, pred_entities_all)
+
+    print(f"Precision: {precision:.3f}")
+    print(f"Recall: {recall:.3f}")
+    print(f"F1-score: {f1:.3f}")
 
     save_data("/NER/src/dataset/predictions.json", predictions)
