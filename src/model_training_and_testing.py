@@ -45,17 +45,6 @@ def train_spacy(model_path, optimizer_path, data_path, iterations):
                     pickle.dump(optimizer, f)
                 print(f"Checkpoint saved at iteration {itn}")
 
-def get_models_predictions(model, line):
-    doc = model(line)
-    results = []
-    entities = []
-    for ent in doc.ents:
-        entities.append((ent.text))
-    if len(entities) > 0:
-        results = [line, {"entities": entities}]
-
-        return results
-
 def test_spacy(model_path, data):
     nlp = spacy.load(model_path)
     lines = load_data(data)
