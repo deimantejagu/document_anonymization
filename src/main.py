@@ -6,10 +6,10 @@ from document_anonymization import anonymize_documents
 # save_data("/NER/src/names.json", names)
 
 # Train model
-# train_spacy("src/spaCy/best_model", "src/spaCy/best_optimizer.pkl", "src/train_dataset.json", 5)
+# train_spacy("src/spaCy/best_model", "src/spaCy/best_optimizer.pkl", "src/dataset/train_dataset.json", 5)
 
 # Test model
-test_spacy("src/spaCy/best_model", "src/test_dataset.json")
+# test_spacy("src/spaCy/best_model", "src/dataset/test_dataset.json")
 
 # Run document anonymization
-# anonymize_documents()
+anonymize_documents("src/documents", "src/processed_documents", "src/spaCy/best_model")

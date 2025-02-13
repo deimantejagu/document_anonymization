@@ -2,18 +2,17 @@ import os
 import re
 import spacy
 from pathlib import Path
-from spacy import displacy
 from docx import Document
+from spacy import displacy
 
-def anonymize_documents():
+def anonymize_documents(documents_folder, processed_documents_folder, model_path):
     # Load the SpaCy model
-    nlp = spacy.load("src/best_model")
+    nlp = spacy.load(model_path)
 
     # Load the document
-    base_path = 'src/files/'
-    files = os.listdir(base_path)
+    files = os.listdir(f"{documents_folder}/")
     for file in files:
-        file_path = f"{base_path}{file}"
+        file_path = f"{documents_folder}/{file}"
         doc = Document(file_path)
         
         html = ""
@@ -39,7 +38,7 @@ def anonymize_documents():
             paragraph.text = re.sub(r'\.?,?\s*\bgim\w*\.?\s*(\d{4}-\d{2}-\d{2}|\d{4})?\s*m?.?,?', '', paragraph.text)
 
         # Save the modified document
-        doc.save(f"src/processed_files/{file}")
+        doc.save(f"{processed_documents_folder}/{file}")
 
-        with open(f"src/processed_files/{Path(file).stem}.html", "w", encoding="UTF-8") as f:
+        with open(f"{processed_documents_folder}/html/{Path(file).stem}.html", "w", encoding="UTF-8") as f:
             f.write(html)
