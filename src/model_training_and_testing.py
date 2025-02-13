@@ -1,9 +1,10 @@
 import spacy
 from spacy.training import Example
 import random
+import pickle
 from utils import save_data, load_data
 
-def train_spacy(model_path, data_path, iterations):
+def train_spacy(model_path, optimizer_path, data_path, iterations):
     nlp = spacy.load(model_path)
     if "ner" not in nlp.pipe_names:
         ner = nlp.create_pipe("ner")
@@ -16,10 +17,16 @@ def train_spacy(model_path, data_path, iterations):
         for ent in annotations.get("entities"):
             ner.add_label(ent[2])
 
+    best_loss = float("inf")
+
     other_pipes = [pipe for pipe in nlp.pipe_names if pipe != "ner"]
     with nlp.disable_pipes(*other_pipes):
-        optimizer = nlp.begin_training()
-        best_loss = 1000000000000000
+        if optimizer_path is not None:
+            with open(optimizer_path, "rb") as f:
+                optimizer = pickle.load(f)
+        else:
+            optimizer = nlp.begin_training()
+            
         for itn in range(iterations):
             print("Starting iteration " + str(itn))
             random.shuffle(data)
@@ -27,14 +34,16 @@ def train_spacy(model_path, data_path, iterations):
             examples = [Example.from_dict(nlp.make_doc(text), annotations) for text, annotations in data]
             for example in examples:
                 nlp.update([example], drop=0.2, sgd=optimizer, losses=losses)
-            print(f"NER Loss: {losses['ner']:.4f}")
+            ner_loss = losses.get("ner", 0)
+            print(f"NER Loss: {ner_loss:.4f}")
 
-            # Save the model checkpoint
-            if losses['ner'] < best_loss:
-                best_loss = losses['ner']
-                model_path = f"src/model_checkpoint_{itn}"
-                nlp.to_disk(model_path)
-                print(f"Checkpoint saved to {model_path}")
+            # Save the model checkpoint and optimizer
+            if ner_loss < best_loss:
+                best_loss = ner_loss
+                nlp.to_disk(f"src/spaCy/optimizer_checkpoint_{itn}.pkl")
+                with open(f"src/spaCy/model_checkpoint_{itn}", "wb") as f:
+                    pickle.dump(optimizer, f)
+                print(f"Checkpoint saved at iteration {itn}")
 
 def get_models_predictions(model, line):
     doc = model(line)
@@ -49,14 +58,12 @@ def get_models_predictions(model, line):
 
 def test_spacy(model_path, data):
     nlp = spacy.load(model_path)
+    lines = load_data(data)
 
     train_data = []
-    with open(data, "r", encoding="UTF-8") as f:
-        text = f.read()
-        lines = text.split("\n")
-        for line in lines:
-            results = get_models_predictions(nlp, line)
-            if results != None:
-                train_data.append(results)
+    for line in lines:
+        results = get_models_predictions(nlp, line[0])
+        if results != None:
+            train_data.append(results)
 
     save_data("/NER/src/results.json", train_data)

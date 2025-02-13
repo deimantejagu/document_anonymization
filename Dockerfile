@@ -1,5 +1,6 @@
 # docker build -t ner .
 # docker run -v "/mnt/c/Users/Testinis/Desktop/document_ anonymization/src:/NER/src" ner
+# docker run -v "/Users/deimantejagucanskyte/Documents/work/document_anonymization/src:/NER/src" ner
 
 FROM python:3.11
 
