@@ -12,10 +12,10 @@ from model_training_and_testing import train_spacy, test_spacy
 # save_data("/NER/src/names.json", names)
 
 # Uncomment if you want to train model
-# train_spacy("src/best_model", "src/train_dataset.json", 50)
+# train_spacy("src/best_model", "src/train_dataset.json", 100)
 
 # Uncomment if you want to test model
-# test_spacy("src/best_model", "src/test_dataset.txt")
+test_spacy("src/best_model", "src/test_dataset.txt")
 
 def anonymize_documents():
     # Load the SpaCy model
@@ -56,4 +56,4 @@ def anonymize_documents():
         with open(f"src/processed_files/{Path(file).stem}.html", "w", encoding="UTF-8") as f:
             f.write(html)
 
-anonymize_documents()
+# anonymize_documents()
