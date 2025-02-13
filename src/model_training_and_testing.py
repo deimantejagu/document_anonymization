@@ -1,8 +1,8 @@
 import spacy
-from spacy.training import Example
 import random
 import pickle
-from utils import save_data, load_data
+from utils import load_data, save_data
+from spacy.training import Example
 
 def train_spacy(model_path, optimizer_path, data_path, iterations):
     nlp = spacy.load(model_path)
