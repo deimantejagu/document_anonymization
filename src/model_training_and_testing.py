@@ -59,11 +59,12 @@ def get_models_predictions(model, line):
 def test_spacy(model_path, data):
     nlp = spacy.load(model_path)
     lines = load_data(data)
-
-    train_data = []
+    predictions = []  
     for line in lines:
-        results = get_models_predictions(nlp, line[0])
-        if results != None:
-            train_data.append(results)
+        doc = nlp(line[0])
+        entities = [ent.text for ent in doc.ents]
+        if entities: 
+            prediction = [line[0], {"entities": entities}]
+            predictions.append(prediction)
 
-    save_data("/NER/src/results.json", train_data)
+    save_data("/NER/src/predictions.json", predictions)
