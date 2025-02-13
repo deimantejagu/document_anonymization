@@ -1,0 +1,2083 @@
+[
+    [
+      "1. Susitikime dalyvavo Aistė.",
+      {
+        "entities": [
+          [23, 28, "PERSON"]
+        ]
+      }
+    ],
+    [
+      "2. Rytą aptarė susirinkime Tomas Kazlauskas ir Monika.",
+      {
+        "entities": [
+          [27, 43, "PERSON"],
+          [47, 53, "PERSON"]
+        ]
+      }
+    ],
+    [
+      "3. Renginyje dalyvavo Ieva, Lukas B. ir Milda Petrauskaitė.",
+      {
+        "entities": [
+          [22, 26, "PERSON"],
+          [28, 36, "PERSON"],
+          [40, 58, "PERSON"]
+        ]
+      }
+    ],
+    [
+      "4. Rytinę konferenciją vedė Dainius A. B. Jankauskas, kuris pristatė svarbius duomenis.",
+      {
+        "entities": [
+          [28, 52, "PERSON"]
+        ]
+      }
+    ],
+    [
+      "5. Renginį lanko: Ona, Ona R., R. Petravičius ir Vilius Petkevičiūtė.",
+      {
+        "entities": [
+          [18, 21, "PERSON"],
+          [23, 29, "PERSON"],
+          [31, 45, "PERSON"],
+          [49, 67, "PERSON"]
+        ]
+      }
+    ],
+    [
+      "6. Konferencijoje pasirodė: Algirdas, Birutė S., Cezaris T., Dalia ir Eimantas P.",
+      {
+        "entities": [
+          [28, 36, "PERSON"],
+          [38, 47, "PERSON"],
+          [49, 59, "PERSON"],
+          [61, 66, "PERSON"],
+          [70, 81, "PERSON"]
+        ]
+      }
+    ],
+    [
+      "7. Rytą susirinkime dalyvavo: Ignas, Irena D., Jurgita, Justinas K. ir Karolis Petrovičius, kurie aptarė naujus planus bei strategijas.",
+      {
+        "entities": [
+          [30, 35, "PERSON"],
+          [37, 45, "PERSON"],
+          [47, 54, "PERSON"],
+          [56, 67, "PERSON"],
+          [71, 90, "PERSON"]
+        ]
+      }
+    ],
+    [
+      "8. Ilgas tekstas, kuriame dalyvavo: Aistė, Benas, Dovilė, Eimantė, Faustas, Gintarė, Henrikas, Ieva, Jurgita ir Kristupas, kurie aptarė strategijas.",
+      {
+        "entities": [
+          [36, 41, "PERSON"],
+          [43, 48, "PERSON"],
+          [50, 56, "PERSON"],
+          [58, 65, "PERSON"],
+          [67, 74, "PERSON"],
+          [76, 83, "PERSON"],
+          [85, 93, "PERSON"],
+          [95, 99, "PERSON"],
+          [101, 108, "PERSON"],
+          [112, 121, "PERSON"]
+        ]
+      }
+    ],
+    [
+      "9. Susirinkime pasirodė: Balčiūnas ir Kairytė.",
+      {
+        "entities": [
+          [25, 34, "PERSON"],
+          [38, 45, "PERSON"]
+        ]
+      }
+    ],
+    [
+      "10. Linas.",
+      {
+        "entities": [
+          [4, 9, "PERSON"]
+        ]
+      }
+    ],
+    [
+      "11. Rytą susitiko su Monika, M. R., ir O. Petra.",
+      {
+        "entities": [
+          [21, 27, "PERSON"],
+          [29, 34, "PERSON"],
+          [39, 47, "PERSON"]
+        ]
+      }
+    ],
+    [
+      "12. Susitikimo dalyviai – Aidas ir Berta P.",
+      {
+        "entities": [
+          [26, 31, "PERSON"],
+          [35, 43, "PERSON"]
+        ]
+      }
+    ],
+    [
+      "13. Renginyje susitiko: Dovilė, Eimantas D., ir Faustina.",
+      {
+        "entities": [
+          [24, 30, "PERSON"],
+          [32, 43, "PERSON"],
+          [48, 56, "PERSON"]
+        ]
+      }
+    ],
+    [
+      "14. Pranešimą įrašė Ignas.",
+      {
+        "entities": [
+          [20, 25, "PERSON"]
+        ]
+      }
+    ],
+    [
+      "15. Prie susitikimo atvyko Tadas ir Ugnė Petro.",
+      {
+        "entities": [
+          [27, 32, "PERSON"],
+          [36, 46, "PERSON"]
+        ]
+      }
+    ],
+    [
+      "16. Rytą pristatymą vedė: Vytas, V. A., ir Zita.",
+      {
+        "entities": [
+          [26, 31, "PERSON"],
+          [33, 38, "PERSON"],
+          [43, 47, "PERSON"]
+        ]
+      }
+    ],
+    [
+      "17. Diskusijoje kalbėjo: Aušra, B. M., Cintija D., ir Donatas.",
+      {
+        "entities": [
+          [25, 30, "PERSON"],
+          [32, 37, "PERSON"],
+          [39, 49, "PERSON"],
+          [54, 61, "PERSON"]
+        ]
+      }
+    ],
+    [
+      "18. Paskutiniame susitikime dalyvavo: Eglė P. ir Fedoras.",
+      {
+        "entities": [
+          [38, 45, "PERSON"],
+          [49, 56, "PERSON"]
+        ]
+      }
+    ],
+    [
+      "19. Verslo susitikime dalyvavo: Giedrė, Hilda, ir Ilias M.",
+      {
+        "entities": [
+          [32, 38, "PERSON"],
+          [40, 45, "PERSON"],
+          [50, 58, "PERSON"]
+        ]
+      }
+    ],
+    [
+      "20. Renginio metu susitiko: Juta, Kęstutis, Linas M., ir Marija.",
+      {
+        "entities": [
+          [28, 32, "PERSON"],
+          [34, 42, "PERSON"],
+          [44, 52, "PERSON"],
+          [57, 63, "PERSON"]
+        ]
+      }
+    ],
+    [
+      "21. Susirinkime dalyvavo: Ieva Petrovičius, Jona, ir Kęstutis A.",
+      {
+        "entities": [
+          [26, 46, "PERSON"],
+          [48, 52, "PERSON"],
+          [57, 68, "PERSON"]
+        ]
+      }
+    ],
+    [
+      "22. Svarbu: Linas, Milda, Neringa, Ovidijus, Paulina dalyvavo susitikime.",
+      {
+        "entities": [
+          [12, 17, "PERSON"],
+          [19, 24, "PERSON"],
+          [26, 33, "PERSON"],
+          [35, 43, "PERSON"],
+          [47, 54, "PERSON"]
+        ]
+      }
+    ],
+    [
+      "23. Savaitės metu pristatymą vedė: Rimas, R. G., Sigutė L. ir Tautvydas.",
+      {
+        "entities": [
+          [35, 40, "PERSON"],
+          [42, 47, "PERSON"],
+          [49, 58, "PERSON"],
+          [62, 71, "PERSON"]
+        ]
+      }
+    ],
+    [
+      "24. Seminaro kalendoriuje paminėta: Uldis, Vaidotas, ir Zita I.",
+      {
+        "entities": [
+          [36, 41, "PERSON"],
+          [43, 51, "PERSON"],
+          [56, 63, "PERSON"]
+        ]
+      }
+    ],
+    [
+      "25. Darbo grupėje dalyvavo: Aurelija, Bronius, Cezarina, Dainora ir Elvinas.",
+      {
+        "entities": [
+          [28, 36, "PERSON"],
+          [38, 45, "PERSON"],
+          [47, 55, "PERSON"],
+          [57, 64, "PERSON"],
+          [68, 75, "PERSON"]
+        ]
+      }
+    ],
+    [
+      "26. Rytinėje sesijoje pasirodė: Fedor, Gabija, ir Henriko.",
+      {
+        "entities": [
+          [30, 35, "PERSON"],
+          [37, 43, "PERSON"],
+          [48, 55, "PERSON"]
+        ]
+      }
+    ],
+    [
+      "27. Svarbi informacija: Irena, Jurgis P., ir Kamilė dalyvavo susirinkime.",
+      {
+        "entities": [
+          [23, 28, "PERSON"],
+          [30, 39, "PERSON"],
+          [44, 50, "PERSON"]
+        ]
+      }
+    ],
+    [
+      "28. Lankytojų sąraše buvo: Laura, Mantas, Neringa, Oskaras ir Petras.",
+      {
+        "entities": [
+          [27, 32, "PERSON"],
+          [34, 40, "PERSON"],
+          [42, 49, "PERSON"],
+          [51, 58, "PERSON"],
+          [62, 68, "PERSON"]
+        ]
+      }
+    ],
+    [
+      "29. Susitikime kalbėjo: Rasa, Saulius, ir Tautvydė.",
+      {
+        "entities": [
+          [24, 28, "PERSON"],
+          [30, 37, "PERSON"],
+          [42, 50, "PERSON"]
+        ]
+      }
+    ],
+    [
+      "30. Rytinį seminarą vedė: Ugnė, Vilius, ir Živilė.",
+      {
+        "entities": [
+          [26, 30, "PERSON"],
+          [32, 38, "PERSON"],
+          [43, 49, "PERSON"]
+        ]
+      }
+    ],
+    [
+      "31. Savaitės susitikime kalbėjo: Aistė, Bėra, Cezar, Domas, Eglė, Foma, Gintaras, Hilda, Ilias ir Jona.",
+      {
+        "entities": [
+          [32, 37, "PERSON"],
+          [39, 43, "PERSON"],
+          [45, 50, "PERSON"],
+          [52, 57, "PERSON"],
+          [59, 63, "PERSON"],
+          [65, 69, "PERSON"],
+          [71, 79, "PERSON"],
+          [81, 86, "PERSON"],
+          [88, 93, "PERSON"],
+          [97, 101, "PERSON"]
+        ]
+      }
+    ],
+    [
+      "32. Konferencijoje dalyvavo: Kęstutis, Laurynas, Mindaugas, Norberta P., Orestas, Paulė, Romas, Simona, Tadas, ir Ugnė.",
+      {
+        "entities": [
+          [29, 37, "PERSON"],
+          [39, 47, "PERSON"],
+          [49, 58, "PERSON"],
+          [60, 71, "PERSON"],
+          [73, 80, "PERSON"],
+          [82, 87, "PERSON"],
+          [89, 94, "PERSON"],
+          [96, 102, "PERSON"],
+          [104, 109, "PERSON"],
+          [114, 118, "PERSON"]
+        ]
+      }
+    ],
+    [
+      "33. Renginyje dalyvavo: Vilius, V. I., Witas, Xena, Yver, ir Zydrė.",
+      {
+        "entities": [
+          [24, 30, "PERSON"],
+          [32, 37, "PERSON"],
+          [39, 44, "PERSON"],
+          [46, 50, "PERSON"],
+          [52, 56, "PERSON"],
+          [61, 66, "PERSON"]
+        ]
+      }
+    ],
+    [
+      "34. Rytą vedė: A. L., B. M. L., ir C. D. E.",
+      {
+        "entities": [
+          [15, 20, "PERSON"],
+          [22, 30, "PERSON"],
+          [35, 43, "PERSON"]
+        ]
+      }
+    ],
+    [
+      "35. Dalyvavo: Dainius, Eimantė, Fedor, Gabija, ir Henrikas.",
+      {
+        "entities": [
+          [14, 21, "PERSON"],
+          [23, 30, "PERSON"],
+          [32, 37, "PERSON"],
+          [39, 45, "PERSON"],
+          [50, 58, "PERSON"]
+        ]
+      }
+    ],
+    [
+      "36. Specialiame renginyje kalbėjo: Ignas, Jūratė, ir Kęstutis P.",
+      {
+        "entities": [
+          [35, 40, "PERSON"],
+          [42, 48, "PERSON"],
+          [53, 64, "PERSON"]
+        ]
+      }
+    ],
+    [
+      "37. Renginio dalyviai: Linas, Mantas, Ieva ir Darius.",
+      {
+        "entities": [
+          [23, 28, "PERSON"],
+          [30, 36, "PERSON"],
+          [38, 42, "PERSON"],
+          [46, 52, "PERSON"]
+        ]
+      }
+    ],
+    [
+      "38. Vidurdienio susitikime dalyvavo: Oskaras, Pijus, ir Renata.",
+      {
+        "entities": [
+          [37, 44, "PERSON"],
+          [46, 51, "PERSON"],
+          [56, 62, "PERSON"]
+        ]
+      }
+    ],
+    [
+      "39. Meno mugėje pristatė naujus kūrinius: Simona, Tomas, Uldis, Violeta ir Zygimantas.",
+      {
+        "entities": [
+          [42, 48, "PERSON"],
+          [50, 55, "PERSON"],
+          [57, 62, "PERSON"],
+          [64, 71, "PERSON"],
+          [75, 85, "PERSON"]
+        ]
+      }
+    ],
+    [
+      "40. Verslo forume kalbėjo: Agnė, Beata, ir Cezaris.",
+      {
+        "entities": [
+          [27, 31, "PERSON"],
+          [33, 38, "PERSON"],
+          [43, 50, "PERSON"]
+        ]
+      }
+    ],
+    [
+      "41. Rytinį susitikimą vedė: Dalia, Eimantas, ir Foma.",
+      {
+        "entities": [
+          [28, 33, "PERSON"],
+          [35, 43, "PERSON"],
+          [48, 52, "PERSON"]
+        ]
+      }
+    ],
+    [
+      "42. Svečiuose dalyvavo: Giedrė, Henrikas, ir Ieva.",
+      {
+        "entities": [
+          [23, 29, "PERSON"],
+          [31, 39, "PERSON"],
+          [44, 48, "PERSON"]
+        ]
+      }
+    ],
+    [
+      "43. Renginio metu kalbėjo: Jurgita, Kęstutis, ir Linas.",
+      {
+        "entities": [
+          [27, 34, "PERSON"],
+          [36, 44, "PERSON"],
+          [49, 54, "PERSON"]
+        ]
+      }
+    ],
+    [
+      "44. Susitikime dalyvavo: Monika, Neringa, Ovidijus, Petrika, ir Rasa.",
+      {
+        "entities": [
+          [25, 31, "PERSON"],
+          [33, 40, "PERSON"],
+          [42, 50, "PERSON"],
+          [52, 59, "PERSON"],
+          [64, 68, "PERSON"]
+        ]
+      }
+    ],
+    [
+      "45. Renginio metu dalyvavo: Simas, Toma, Ugnius, Varda, ir Zita.",
+      {
+        "entities": [
+          [28, 33, "PERSON"],
+          [35, 39, "PERSON"],
+          [41, 47, "PERSON"],
+          [49, 54, "PERSON"],
+          [59, 63, "PERSON"]
+        ]
+      }
+    ],
+    [
+      "46. Šiandien susirinkime kalbėjo: Aistė B., Cezar D. E., ir Foma G.",
+      {
+        "entities": [
+          [34, 42, "PERSON"],
+          [44, 55, "PERSON"],
+          [60, 67, "PERSON"]
+        ]
+      }
+    ],
+    [
+      "47. Susitikime buvo prisijungę: Ignė, Jona, Kęstutis, Linas, Milda, Neringa, Oskaras, Petras, Rasa ir Saulius.",
+      {
+        "entities": [
+          [32, 36, "PERSON"],
+          [38, 43, "PERSON"],
+          [44, 52, "PERSON"],
+          [54, 59, "PERSON"],
+          [61, 66, "PERSON"],
+          [68, 75, "PERSON"],
+          [77, 84, "PERSON"],
+          [86, 92, "PERSON"],
+          [94, 98, "PERSON"],
+          [102, 109, "PERSON"]
+        ]
+      }
+    ],
+    [
+      "48. Renginyje iškilo klausimas, kam priklauso: Tautvydas, Uldis, Violeta ir Zygimantas.",
+      {
+        "entities": [
+          [46, 55, "PERSON"],
+          [57, 62, "PERSON"],
+          [64, 71, "PERSON"],
+          [75, 85, "PERSON"]
+        ]
+      }
+    ],
+    [
+      "49. Seminaro metu pasirodė: Agnietė, Brigita, ir Celina.",
+      {
+        "entities": [
+          [28, 35, "PERSON"],
+          [37, 44, "PERSON"],
+          [49, 55, "PERSON"]
+        ]
+      }
+    ],
+    [
+      "50. Svarbus pranešimas: Dovydas P., Elzbieta, Fedoras G., ir Grigorijus.",
+      {
+        "entities": [
+          [24, 34, "PERSON"],
+          [36, 44, "PERSON"],
+          [46, 56, "PERSON"],
+          [61, 71, "PERSON"]
+        ]
+      }
+    ],
+    [
+        "51. Rytą, po lietaus, Aistė nusprendė aplankyti seną draugą, Joną. Jie kartu keliaudavo po senamiesčio gatves, prisimindami praeities nuotykius. Po ilgos pasivaikščiojimo jie sustojo kavinėje, kur dar prisijungė ir kiti draugai: Lina Petkevičiūtė bei Petras, kurie taip pat turėjo nepaprastų istorijų apie jaunystę. Pokalbis tęsėsi iki vakaro, o kiekvienas pasakojo savo gyvenimo vingius.",
+        {
+          "entities": [
+            [22, 27, "PERSON"],
+            [61, 65, "PERSON"],
+            [226, 243, "PERSON"],
+            [248, 254, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "52. Vakare, kai dangus buvo pripildytas žvaigždžių, Jonas ir Eglė susitiko sename parke. Jie aptarė savo nuotykius, o vėliau prie jų prisijungė Mantas, kuris atnešė naujų įžvalgų. Dalyvių sąraše: Jonas, Eglė, ir Mantas. Po to jie kartu gėrė arbatos ir dalijosi prisiminimais, palikdami nepakartojamą įspūdį visiems, kurie buvo toje akimirkoje.",
+        {
+          "entities": [
+            [22, 27, "PERSON"],
+            [32, 37, "PERSON"],
+            [103, 108, "PERSON"],
+            [125, 131, "PERSON"],
+            [185, 190, "PERSON"],
+            [194, 199, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "53. Dienos metu, saulėtą rytą, Petras ir Ieva nuvyko į gamtos parką, kur susitiko su Dainiumi ir Rasa. Jų pokalbis apie gyvenimo prasmę ir gamtos grožį įkvėpė visus praeivius. Vėliau, Dalyvių sąraše: Petras, Ieva, Dainius, ir Rasa, visi susirinko bendram pikniku, aptariant ateities planus.",
+        {
+          "entities": [
+            [26, 32, "PERSON"],
+            [37, 41, "PERSON"],
+            [72, 79, "PERSON"],
+            [84, 88, "PERSON"],
+            [146, 152, "PERSON"],
+            [154, 158, "PERSON"],
+            [160, 167, "PERSON"],
+            [173, 177, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "54. Poilsio dieną, kai oras buvo šiltas, Milda P. L. vyko į biblioteką, kur susitiko su Viliumi ir Andriumi. Jie kartu aptarė naujas knygas ir dalijosi įspūdžiais apie seną literatūrą. Dalyvių sąraše: Milda P. L., Vilius, ir Andrius. Vėliau jie apsilankė kavinėje, kur kiekvienas pasakojo apie savo mėgstamiausią knygą.",
+        {
+          "entities": [
+            [27, 38, "PERSON"],
+            [60, 66, "PERSON"],
+            [71, 80, "PERSON"],
+            [138, 149, "PERSON"],
+            [151, 157, "PERSON"],
+            [163, 171, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "55. Senamiesčio šurmulys ir gatvių muzikantai suvienijo jėgas, kai Aušra ir Dovydas organizavo nedidelį koncertą lauke. Miesto gyventojai susirinko klausytis, o vėliau Dalyvių sąraše: Aušra, Dovydas, ir Gabija, kartu dalijosi kūrybinėmis idėjomis apie meną ir kultūrą.",
+        {
+          "entities": [
+            [63, 69, "PERSON"],
+            [74, 81, "PERSON"],
+            [138, 145, "PERSON"],
+            [151, 157, "PERSON"],
+            [162, 169, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "56. Rytas prasidėjo ramiai, kai Tomas ir Lina išvyko į kaimo kambarį, kad pailsėtų nuo miesto šurmulio. Ten jie prisiminė praeities laikus, o vėliau Dalyvių sąraše: Tomas, Lina, ir Eimantas, dalijosi savo patirtimi apie kaimo gyvenimo paprastumą.",
+        {
+          "entities": [
+            [27, 32, "PERSON"],
+            [37, 41, "PERSON"],
+            [89, 97, "PERSON"],
+            [105, 110, "PERSON"],
+            [115, 123, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "57. Po ilgos savaitės, kupinos darbo įtampos, Rasa ir Dainius nusprendė praleisti laiką gamtoje. Jie keliaudavo miško takais, mėgaudamiesi gaiviu oru, o vėliau Dalyvių sąraše: Rasa, Dainius, ir Justas, kartu dalyvavo tradicinėje kaimo šventėje, kurioje buvo daug linksmumo ir džiaugsmo.",
+        {
+          "entities": [
+            [50, 54, "PERSON"],
+            [59, 67, "PERSON"],
+            [125, 130, "PERSON"],
+            [138, 142, "PERSON"],
+            [148, 153, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "58. Vakarą nuspalvino raudoni ir auksiniai dangų atspindžiai, kai Mantas, Eglė ir Lukas susirinko prie upės, kad stebėtų saulėlydį. Jų pokalbis apie gamtos stebuklus įkvėpė visus, o Dalyvių sąraše: Mantas, Eglė, Lukas, ir Giedrius, visi kartu dalyvavo vietiniame meno festivale.",
+        {
+          "entities": [
+            [22, 28, "PERSON"],
+            [30, 35, "PERSON"],
+            [40, 45, "PERSON"],
+            [102, 109, "PERSON"],
+            [115, 122, "PERSON"],
+            [127, 133, "PERSON"],
+            [139, 147, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "59. Miesto kultūros šurmulyje, kai gatvės pilnos gyvybės, Aušra nusprendė surengti ekskursiją po senąjį teatrą. Ten ji prisiminė praeities spektaklius, o kartu su draugais, Dalyvių sąraše: Aušra, Ramūnas, ir Kristina, aptarė naujas kūrybines idėjas.",
+        {
+          "entities": [
+            [41, 47, "PERSON"],
+            [70, 78, "PERSON"],
+            [84, 93, "PERSON"],
+            [109, 117, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "60. Pavasario dieną, kai gamta pradėjo žydėti, Ieva ir Dovydas išvyko į parką rinkti gėles. Jų kelionę praturtino senieji draugai, o Dalyvių sąraše: Ieva, Dovydas, ir Milda, dalijosi pasakojimais apie praeities pavasarius.",
+        {
+          "entities": [
+            [27, 31, "PERSON"],
+            [36, 43, "PERSON"],
+            [97, 101, "PERSON"],
+            [103, 108, "PERSON"],
+            [114, 119, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "61. Karšto vasaros metu, kai oras kupinas saulės spindulių, Dainius nusprendė surengti džiaugsmingą vakarėlį savo kieme. Jame susirinko seni draugai, o Dalyvių sąraše: Dainius, Lina, ir Justas, kartu šventė, dalijosi prisiminimais bei svajonėmis.",
+        {
+          "entities": [
+            [36, 43, "PERSON"],
+            [49, 53, "PERSON"],
+            [60, 66, "PERSON"],
+            [114, 121, "PERSON"],
+            [127, 132, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "62. Rytą, kai saulė švelniai švietė, Vilius ir Andrius nusprendė aplankyti seną uostą. Ten jie tyrinėjo jūrų istorijas ir senus laivus, o vėliau Dalyvių sąraše: Vilius, Andrius, ir Rasa, kartu dalijosi įspūdžiais apie praeities keliones.",
+        {
+          "entities": [
+            [27, 33, "PERSON"],
+            [38, 46, "PERSON"],
+            [103, 107, "PERSON"],
+            [115, 121, "PERSON"],
+            [126, 130, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "63. Po lietaus vakare, kai miestas apšvietė spalvota lempučių žvaigždžių gausa, Justas ir Rasa nusprendė aplankyti senovinį muziejų. Tarp ekspozicijų jie aptarė praeities laikus, o Dalyvių sąraše: Justas, Rasa, ir Mantas, kartu sukūrė naują susitikimų tradiciją.",
+        {
+          "entities": [
+            [27, 33, "PERSON"],
+            [38, 42, "PERSON"],
+            [103, 109, "PERSON"],
+            [117, 121, "PERSON"],
+            [127, 133, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "64. Šiltą rudens rytą, kai medžių lapai nusidažė auksu, Dovydas ir Eglė išvyko į seną pilį. Ten jie atrado paslėptų paslapčių, o vėliau Dalyvių sąraše: Dovydas, Eglė, ir Milda, kartu aptarė pilies legendas.",
+        {
+          "entities": [
+            [27, 35, "PERSON"],
+            [40, 45, "PERSON"],
+            [97, 101, "PERSON"],
+            [107, 112, "PERSON"],
+            [118, 123, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "65. Vasaros pabaigoje, kai vakarai tapo ilgesni, Milda ir Aušra nusprendė surengti nedidelį teatro spektaklį lauke. Jie paruošė scenarijų, o Dalyvių sąraše: Milda, Aušra, ir Dainius, dalijosi savo kūrybinėmis idėjomis.",
+        {
+          "entities": [
+            [27, 31, "PERSON"],
+            [36, 41, "PERSON"],
+            [88, 96, "PERSON"],
+            [104, 109, "PERSON"],
+            [115, 122, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "66. Po ilgų darbo dienų, kai miesto gatvės nusiramino, Tomas ir Lina nusprendė vykti į kalnus pasidžiaugti gamtos ramybe. Jie vaikščiojo takais, o vėliau Dalyvių sąraše: Tomas, Lina, ir Justas, kartu dalijosi įspūdžiais apie kalnų grožį.",
+        {
+          "entities": [
+            [27, 32, "PERSON"],
+            [37, 41, "PERSON"],
+            [89, 95, "PERSON"],
+            [103, 108, "PERSON"],
+            [114, 120, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "67. Rytą, kai rasa dar spindėjo ant langų, Aušra ir Gabija nusprendė surengti ekskursiją po senąjį parką. Ten jie atrado paslaptingas takų linijas, o vėliau Dalyvių sąraše: Aušra, Gabija, ir Eglė, kartu dalijosi savo nuotykiais.",
+        {
+          "entities": [
+            [27, 33, "PERSON"],
+            [38, 45, "PERSON"],
+            [102, 107, "PERSON"],
+            [115, 120, "PERSON"],
+            [125, 130, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "68. Vakarą, kai miestas apsirengė žibintais, Justas ir Dainius surengė nedidelį koncertą senamiesčio aikštėje. Jie grojo senas dainas, o vėliau Dalyvių sąraše: Justas, Dainius, ir Mantas, kartu džiaugėsi muzikos magija.",
+        {
+          "entities": [
+            [22, 28, "PERSON"],
+            [33, 41, "PERSON"],
+            [90, 96, "PERSON"],
+            [104, 110, "PERSON"],
+            [116, 122, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "69. Pavasario rytą, kai žiedai pradėjo skleistis, Ieva ir Vilius išvyko į botanikos sodą. Ten jie tyrinėjo retas augalų rūšis, o vėliau Dalyvių sąraše: Ieva, Vilius, ir Andrius, kartu pasidalijo gamtos stebuklų pasakojimais.",
+        {
+          "entities": [
+            [27, 31, "PERSON"],
+            [36, 42, "PERSON"],
+            [97, 105, "PERSON"],
+            [113, 120, "PERSON"],
+            [126, 134, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "70. Šiltą vasaros dieną, kai saulė spindėjo be debesies, Dainius ir Lina nusprendė surengti pikniką prie upės. Jie dalijosi juokais ir prisiminimais, o vėliau Dalyvių sąraše: Dainius, Lina, ir Petras, kartu džiaugėsi gamtos dovanomis.",
+        {
+          "entities": [
+            [27, 35, "PERSON"],
+            [40, 44, "PERSON"],
+            [97, 103, "PERSON"],
+            [111, 116, "PERSON"],
+            [122, 128, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "71. Rudens dieną, kai lapai nusidažė auksu, Justas ir Eglė nusprendė vykti į senią miestelio aikštę. Ten jie aptarė kultūros renginius, o vėliau Dalyvių sąraše: Justas, Eglė, ir Milda, kartu dalijosi įkvėpimo akimirkomis.",
+        {
+          "entities": [
+            [27, 33, "PERSON"],
+            [38, 42, "PERSON"],
+            [97, 101, "PERSON"],
+            [107, 112, "PERSON"],
+            [118, 123, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "72. Vakarą, kai dangus tapo tamsus, Ramūnas ir Andrius surengė mažą koncertą savo kvartete. Muzika užpildė miestą, o vėliau Dalyvių sąraše: Ramūnas, Andrius, ir Violeta, kartu sukūrė nepamirštamą vakarą.",
+        {
+          "entities": [
+            [22, 30, "PERSON"],
+            [35, 43, "PERSON"],
+            [94, 102, "PERSON"],
+            [108, 116, "PERSON"],
+            [121, 129, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "73. Rytą, kai rasa dar krapštydavo ant langų, Ieva nusprendė surengti meno parodą savo galerijoje. Dalyvių sąraše: Ieva, Mantas, ir Dovydas, kartu aptarė kūrybos naujoves.",
+        {
+          "entities": [
+            [27, 31, "PERSON"],
+            [75, 81, "PERSON"],
+            [86, 93, "PERSON"],
+            [101, 107, "PERSON"],
+            [113, 120, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "74. Poilsio dieną, kai oras buvo švelnus ir ramus, Lina ir Aušra nusprendė pasivaikščioti senamiestyje. Jie aptarė meno ir architektūros paslaptis, o vėliau Dalyvių sąraše: Lina, Aušra, ir Dainius, kartu dalijosi savo įspūdžiais.",
+        {
+          "entities": [
+            [27, 31, "PERSON"],
+            [36, 41, "PERSON"],
+            [92, 99, "PERSON"],
+            [107, 111, "PERSON"],
+            [117, 123, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "75. Vasaros dieną, kai oras buvo kupinas energijos, Petras ir Justina išvyko į ežerą plaukti. Vandens bangos ir gamtos ramybė įkvėpė juos, o vėliau Dalyvių sąraše: Petras, Justina, ir Milda, kartu mėgavosi laisvės jausmu.",
+        {
+          "entities": [
+            [27, 33, "PERSON"],
+            [38, 46, "PERSON"],
+            [90, 96, "PERSON"],
+            [104, 111, "PERSON"],
+            [117, 122, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "76. Rytą, kai debesis dar slydo virš kalnų, Andrius ir Ramūnas nusprendė leistis į žygį. Jie kopė aukštyn, aptardami gamtos dovanų paslaptis, o vėliau Dalyvių sąraše: Andrius, Ramūnas, ir Eglė, kartu džiaugėsi nuotykių akimirkomis.",
+        {
+          "entities": [
+            [27, 35, "PERSON"],
+            [40, 48, "PERSON"],
+            [103, 108, "PERSON"],
+            [116, 124, "PERSON"],
+            [129, 134, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "77. Poilsio savaitgalį, kai miestas ramiai ilsėjosi, Vilius nusprendė surengti maudynes sename tvenkinyje. Kartu su draugais, Dalyvių sąraše: Vilius, Dainius, ir Lina, visi pasidžiaugė gamtos teikiama ramybe.",
+        {
+          "entities": [
+            [41, 47, "PERSON"],
+            [99, 107, "PERSON"],
+            [112, 116, "PERSON"],
+            [124, 128, "PERSON"],
+            [134, 139, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "78. Vasaros vakare, kai dangus tapo margu ir paslaptingu, Justina ir Milda nusprendė aplankyti naują restoraną, kur buvo garsus gurmaniškas meniu. Dalyvių sąraše: Justina, Milda, ir Petras, kartu patyrė skonių simfoniją.",
+        {
+          "entities": [
+            [22, 30, "PERSON"],
+            [35, 41, "PERSON"],
+            [96, 102, "PERSON"],
+            [110, 116, "PERSON"],
+            [122, 128, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "79. Rytą, kai migla dar uždengė miesto gatves, Dovydas ir Eglė išvyko į dykumą, kad patirtų neįprastą gamtos grožį. Vėliau Dalyvių sąraše: Dovydas, Eglė, ir Andrius, kartu dalijosi savo nuotykiais.",
+        {
+          "entities": [
+            [27, 32, "PERSON"],
+            [37, 44, "PERSON"],
+            [90, 98, "PERSON"],
+            [106, 113, "PERSON"],
+            [119, 127, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "80. Poilsio vakare, kai miesto šviesos žaidė ant senų pastatų, Ramūnas ir Milda nusprendė surengti fotografijos konkursą. Dalyvių sąraše: Ramūnas, Milda, ir Lina, kartu fiksavo miesto grožį per objektyvą.",
+        {
+          "entities": [
+            [22, 30, "PERSON"],
+            [35, 41, "PERSON"],
+            [92, 98, "PERSON"],
+            [106, 111, "PERSON"],
+            [117, 121, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "81. Vasaros vakarą, kai dangus keitė spalvas, Dainius ir Justas surengė lauko žygį po žvaigždėtą dangų. Dalyvių sąraše: Dainius, Justas, ir Eglė, kartu dalijosi savo svajonėmis bei ateities planais.",
+        {
+          "entities": [
+            [27, 35, "PERSON"],
+            [40, 46, "PERSON"],
+            [93, 98, "PERSON"],
+            [106, 111, "PERSON"],
+            [117, 122, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "82. Rytą, kai miesto gatvės dar buvosi tylios, Lina nusprendė atnaujinti seną kavinę, kuri buvo jos mylimas kampelis. Ten susitiko su draugais, o Dalyvių sąraše: Lina, Mantas, ir Aušra, kartu dalijosi kūrybos idėjomis.",
+        {
+          "entities": [
+            [27, 31, "PERSON"],
+            [85, 91, "PERSON"],
+            [96, 102, "PERSON"],
+            [110, 115, "PERSON"],
+            [121, 127, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "83. Poilsio dieną, kai oras buvo švelnus ir ramus, Justas ir Petras nusprendė aplankyti senovinę biblioteką, kur atrado pamirštų rankraščių lobyną. Dalyvių sąraše: Justas, Petras, ir Eglė, kartu dalijosi atradimų džiaugsmu.",
+        {
+          "entities": [
+            [27, 33, "PERSON"],
+            [38, 44, "PERSON"],
+            [95, 101, "PERSON"],
+            [109, 115, "PERSON"],
+            [121, 125, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "84. Vakarą, kai miesto dangus nusidažė rožinėmis ir violetinėmis spalvomis, Dovydas ir Milda surengė kūrybinę dirbtuvę lauke. Dalyvių sąraše: Dovydas, Milda, ir Ramūnas, kartu dalijosi savo idėjomis ir įkvėpimu.",
+        {
+          "entities": [
+            [22, 30, "PERSON"],
+            [35, 41, "PERSON"],
+            [97, 105, "PERSON"],
+            [113, 121, "PERSON"],
+            [127, 135, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "85. Rytą, kai saulė pradėjo kilt, Eglė ir Lina išvyko į seną parką, kuriame kadaise vyko kultūriniai susirinkimai. Dalyvių sąraše: Eglė, Lina, ir Justas, kartu atgaivino senas tradicijas.",
+        {
+          "entities": [
+            [27, 32, "PERSON"],
+            [37, 41, "PERSON"],
+            [95, 101, "PERSON"],
+            [109, 114, "PERSON"],
+            [120, 126, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "86. Poilsio savaitgalį, kai gamta atgimsta, Mantas nusprendė surengti fotografijos ekskursiją mieste. Kartu su draugais, Dalyvių sąraše: Mantas, Dainius, ir Aušra, visi fiksavo nepamirštamus momentus.",
+        {
+          "entities": [
+            [27, 33, "PERSON"],
+            [39, 47, "PERSON"],
+            [95, 101, "PERSON"],
+            [109, 115, "PERSON"],
+            [121, 127, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "87. Vasaros dieną, kai oras buvo kupinas šviesos, Justina nusprendė aplankyti menininkų studiją. Dalyvių sąraše: Justina, Eglė, ir Petras, kartu pasidalijo savo kūrybinėmis vizijomis.",
+        {
+          "entities": [
+            [27, 35, "PERSON"],
+            [40, 45, "PERSON"],
+            [97, 103, "PERSON"],
+            [111, 119, "PERSON"],
+            [125, 131, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "88. Rytą, kai migla dar uždengė miesto gatves, Dainius ir Vilius nusprendė išbandyti naują kavos namų idėją. Dalyvių sąraše: Dainius, Vilius, ir Lina, kartu aptarė verslo planus bei kūrybinius sprendimus.",
+        {
+          "entities": [
+            [27, 35, "PERSON"],
+            [40, 46, "PERSON"],
+            [97, 101, "PERSON"],
+            [109, 113, "PERSON"],
+            [119, 123, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "89. Poilsio rytą, kai oras buvo gaivus ir skaidrus, Andrius nusprendė leistis į ilgesnį pasivaikščiojimą po miesto parką. Dalyvių sąraše: Andrius, Justas, ir Eglė, kartu dalijosi mintimis apie gyvenimo prasmę.",
+        {
+          "entities": [
+            [27, 35, "PERSON"],
+            [41, 47, "PERSON"],
+            [103, 108, "PERSON"],
+            [116, 122, "PERSON"],
+            [128, 133, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "90. Vasaros vakare, kai dangus tapo margu ir paslaptingu, Milda ir Petras išvyko į seną kaimą, kad atrastų prarastus lobius. Dalyvių sąraše: Milda, Petras, ir Dovydas, kartu dalijosi savo nuotykiais bei atradimų džiaugsmu.",
+        {
+          "entities": [
+            [27, 31, "PERSON"],
+            [36, 42, "PERSON"],
+            [89, 96, "PERSON"],
+            [104, 110, "PERSON"],
+            [116, 123, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "91. Rytą, kai pirmieji saulės spinduliai prasiskverbė pro langus, Lina nusprendė surengti kūrybinę dirbtuvę savo studijoje. Dalyvių sąraše: Lina, Aušra, ir Justas, kartu dalijosi meno idėjomis bei vizijomis.",
+        {
+          "entities": [
+            [27, 31, "PERSON"],
+            [89, 95, "PERSON"],
+            [101, 107, "PERSON"],
+            [115, 121, "PERSON"],
+            [127, 133, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "92. Po ilgų darbo savaičių, kai siela troško poilsio, Dainius ir Andrius nusprendė leistis į kelionę į senąjį miestelį. Dalyvių sąraše: Dainius, Andrius, ir Eglė, kartu atrado naujų draugystės takų.",
+        {
+          "entities": [
+            [27, 35, "PERSON"],
+            [40, 48, "PERSON"],
+            [97, 101, "PERSON"],
+            [109, 117, "PERSON"],
+            [123, 128, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "93. Vasaros dieną, kai gamta spindėjo, Justina nusprendė surengti poezijos vakarą lauke. Dalyvių sąraše: Justina, Lina, ir Petras, kartu dalijosi jausmingais eilėraščiais bei istorijomis.",
+        {
+          "entities": [
+            [27, 35, "PERSON"],
+            [40, 44, "PERSON"],
+            [50, 56, "PERSON"],
+            [102, 108, "PERSON"],
+            [114, 120, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "94. Rytą, kai miestas dar buvo apsuptas ramybės, Mantas ir Vilius išvyko į senąją pilį, kad atrastų prarastus paslapčių fragmentus. Dalyvių sąraše: Mantas, Vilius, ir Dovydas, kartu dalijosi istorijomis apie senus laikus.",
+        {
+          "entities": [
+            [27, 33, "PERSON"],
+            [38, 44, "PERSON"],
+            [97, 103, "PERSON"],
+            [111, 118, "PERSON"],
+            [124, 131, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "95. Poilsio vakare, kai miesto šviesos žaidė ant senų pastatų, Aušra ir Eglė nusprendė aplankyti mažą parodą vietinėje galerijoje. Dalyvių sąraše: Aušra, Eglė, ir Justas, kartu aptarė kūrybos naujoves.",
+        {
+          "entities": [
+            [27, 33, "PERSON"],
+            [38, 42, "PERSON"],
+            [97, 103, "PERSON"],
+            [111, 117, "PERSON"],
+            [123, 129, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "96. Vasaros rytą, kai oras buvo kupinas energijos, Dainius ir Petras nusprendė surengti sporto varžybas miesto parke. Dalyvių sąraše: Dainius, Petras, ir Lina, kartu dalijosi entuziazmu bei varžybų dvasia.",
+        {
+          "entities": [
+            [27, 35, "PERSON"],
+            [40, 46, "PERSON"],
+            [97, 101, "PERSON"],
+            [109, 113, "PERSON"],
+            [119, 123, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "97. Poilsio dieną, kai oras buvo ramus ir malonus, Andrius nusprendė surengti meno ir literatūros susitikimą sename kavinėje. Dalyvių sąraše: Andrius, Justina, ir Milda, kartu dalijosi kūrybinėmis idėjomis bei pasakojimais.",
+        {
+          "entities": [
+            [27, 35, "PERSON"],
+            [40, 48, "PERSON"],
+            [97, 102, "PERSON"],
+            [110, 116, "PERSON"],
+            [122, 127, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "98. Rytą, kai pirmieji rudens vėjai pradėjo šnibždėti, Vilius ir Dovydas nusprendė leistis į senąjį parką, kur anksčiau vyko paslaptingi susitikimai. Dalyvių sąraše: Vilius, Dovydas, ir Justas, kartu aptarė senų legendų paslaptis.",
+        {
+          "entities": [
+            [27, 33, "PERSON"],
+            [38, 45, "PERSON"],
+            [97, 103, "PERSON"],
+            [111, 117, "PERSON"],
+            [123, 129, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "99. Vakarą, kai dangus nusidažė žydinčiomis spalvomis, Lina nusprendė surengti poezijos vakarą lauke. Dalyvių sąraše: Lina, Eglė, ir Mantas, kartu dalijosi jausmingais žodžiais bei įspūdžiais.",
+        {
+          "entities": [
+            [22, 26, "PERSON"],
+            [32, 37, "PERSON"],
+            [90, 96, "PERSON"],
+            [104, 109, "PERSON"],
+            [115, 121, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "100. Poilsio dieną, kai miesto šurmulys sumažėjo, Justas nusprendė aplankyti senąją biblioteką, kur atrado pamirštų istorijų lobyną. Dalyvių sąraše: Justas, Milda, ir Aušra, kartu dalijosi atradimais bei prisiminimais apie praeitį.",
+        {
+          "entities": [
+            [27, 33, "PERSON"],
+            [38, 43, "PERSON"],
+            [89, 95, "PERSON"],
+            [103, 109, "PERSON"],
+            [115, 121, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "101. Rytą, Jonas Kazlauskas išvyko į parką.",
+        {
+          "entities": [
+            [11, 27, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "102. Vakarą, Aušra Petrauskaitė susitiko su Martinu Jonu, aptardama senas tradicijas.",
+        {
+          "entities": [
+            [13, 31, "PERSON"],
+            [42, 54, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "103. Rytą, Ieva Jonaitė, kartu su Tomasas ir Rasa Pavardenė, dalyvavo mokyklos šventėje.",
+        {
+          "entities": [
+            [11, 23, "PERSON"],
+            [25, 32, "PERSON"],
+            [36, 50, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "104. Vakarą, kur dangus tapo tamsus, Mantas Vaitiekus ir Eglė Karaliūtė susitiko senamiesčio kavinėje, dalijosi istorijomis apie praeitį.",
+        {
+          "entities": [
+            [37, 54, "PERSON"],
+            [58, 73, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "105. Senoje kaimo vietoje, kur gamta tyčia šnibždėjo, Dainius Petrauskas, kartu su Lina Urbonaitė, dalyvavo vietos tradicijų šventėje.",
+        {
+          "entities": [
+            [55, 74, "PERSON"],
+            [85, 100, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "106. Senovės miesto centre, Rasa Jankauskienė ir Tomas Žukauskas dalyvavo kultūriniame renginyje, kuriame minėtos senos legendos.",
+        {
+          "entities": [
+            [29, 48, "PERSON"],
+            [52, 68, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "107. Vasaros karštą dieną, Aušra Dominyte ir Martynas Petrauskas vyko į koncertą, kur susitiko žymių muzikos menininkų grupė.",
+        {
+          "entities": [
+            [28, 43, "PERSON"],
+            [47, 67, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "108. Rytą, kai saulė spindėjo, Dainius Morkus ir Ieva Liutkienė susitiko seniame parke, kur skambėjo tyli muzika.",
+        {
+          "entities": [
+            [31, 45, "PERSON"],
+            [49, 64, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "109. Vakarą, po ilgos kelionės, Rasa Petkevičiūtė, kartu su Tomasas Gudaitis, lankė senovinį dvarą, kur pasakojamos senojo laiko istorijos.",
+        {
+          "entities": [
+            [33, 52, "PERSON"],
+            [63, 79, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "110. Seną vasaros dieną, kai gamta kvėpavo, Ieva Ramanauskaitė surengė parodą, kurioje dalyvavo ir kiti menininkai, tarp jų – Dainius Krivickas.",
+        {
+          "entities": [
+            [47, 66, "PERSON"],
+            [116, 133, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "111. Rytą, kai oras buvo gaivus, Martynas Navickas ir Aušra Jurgaitė susitiko kavinėje, aptardami naujas idėjas.",
+        {
+          "entities": [
+            [34, 51, "PERSON"],
+            [55, 69, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "112. Vakarą, kai dangaus spalvos keitėsi, Dainius Sakalauskas ir Rasa Norkienė lankė senovės muziejų, ieškodami praeities paslapčių.",
+        {
+          "entities": [
+            [40, 60, "PERSON"],
+            [64, 78, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "113. Senos tradicijos išliko, kai Aušra Lukoševičiūtė, kartu su Martynu Vasiliauskiu, surengė susitikimą sename kaime.",
+        {
+          "entities": [
+            [35, 56, "PERSON"],
+            [67, 89, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "114. Rytą, kai debesis dar balti, Rasa Beržinienė ir Tomas Gricius susitiko prie senos fontano, kurio garsai priminė praeities laikus.",
+        {
+          "entities": [
+            [35, 51, "PERSON"],
+            [55, 68, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "115. Poilsio vakare, kai miesto gatvės tyrelėjo, Dainius Kavaliauskas, kartu su Ieva Zukauskaitė, dalyvavo vietinėje parodoje, pristatydami naujas idėjas.",
+        {
+          "entities": [
+            [50, 71, "PERSON"],
+            [82, 100, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "116. Rytą, kai saulė dar nebuvo visiškai, Tomas Rutkauskas ir Martyna Aleknaitė surengė sporto varžybas prie upės.",
+        {
+          "entities": [
+            [43, 59, "PERSON"],
+            [63, 81, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "117. Vakarą, kai miestas apšvietė šviesos žiburėliais, Ieva Dambrauskaitė ir Dainius Stankevičius dalyvavo kultūriniame susitikime, aptardami meną.",
+        {
+          "entities": [
+            [50, 69, "PERSON"],
+            [73, 95, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "118. Rytą, kai debesis lėtai išnyko, Martynas Jurkšaitis surengė ekskursiją po senovinį parką, kurioje dalyvavo ir kiti kultūros mylėtojai.",
+        {
+          "entities": [
+            [35, 54, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "119. Vakarą, kai oras nusiraminė, Aušra Melnalkienė ir Tomas Baranauskas susitiko sename kavinėje, kur dalyvavo vietos bendruomenė.",
+        {
+          "entities": [
+            [37, 56, "PERSON"],
+            [60, 78, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "120. Rytą, kai saulė dar nebuvo aukšta, Dainius Žukauskas ir Ieva Petraitytė dalyvavo mokyklos renginyje, skirdami ypatingus prizus.",
+        {
+          "entities": [
+            [40, 58, "PERSON"],
+            [62, 78, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "121. Vasaros dieną, kai oras buvo šiltas, Martyna Aleksandravičiūtė ir Dainius Vasiliauskas susitiko paplūdimyje, kur dalijosi nuotykiais.",
+        {
+          "entities": [
+            [40, 66, "PERSON"],
+            [70, 91, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "122. Rytą, kai debesis lėtai išnyko, Ieva Šimkutė ir Tomas Jankauskas surengė mažą koncertą parke, pritraukdami daugybę žiūrovų.",
+        {
+          "entities": [
+            [37, 50, "PERSON"],
+            [54, 71, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "123. Poilsio dieną, kai gamta rožinė, Dainius Kalnietis ir Aušra Lileikienė susitiko sename kaime, aptardami istorijas apie praeitį.",
+        {
+          "entities": [
+            [35, 52, "PERSON"],
+            [56, 73, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "124. Vakarą, kai dangus nusidažė įvairiomis spalvomis, Martynas Urbonas ir Ieva Kavaliauskaitė lankė senąjį teatrai, mėgaudamiesi kultūros dvasia.",
+        {
+          "entities": [
+            [45, 61, "PERSON"],
+            [65, 85, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "125. Rytą, kai pavasaris atnešė naują viltį, Tomas Marčiulionis ir Aušra Jankauskienė dalyvavo mieste surengtoje parodoje.",
+        {
+          "entities": [
+            [40, 60, "PERSON"],
+            [64, 84, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "126. Vakarą, kai miestas užsidegė šviesos žiburėliais, Dainius Aleknauskas ir Ieva Martinkaitė susitiko senoje vietoje, dalindamiesi įkvepiančiomis istorijomis.",
+        {
+          "entities": [
+            [45, 65, "PERSON"],
+            [69, 87, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "127. Rytą, kai dangaus skliautas atsiduso ramybės, Martyna Šimkutė ir Tomas Lukoševičius surengė kūrybinę dirbtuvę, kurioje dalyvavo vietos menininkai.",
+        {
+          "entities": [
+            [45, 61, "PERSON"],
+            [65, 85, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "128. Vasaros dieną, kai gamta buvo pilna spalvų, Dainius Jankauskas ir Rasa Morkaitė lankė kultūros festivalį, kuriame susipynė menas ir tradicijos.",
+        {
+          "entities": [
+            [45, 64, "PERSON"],
+            [68, 82, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "129. Rytą, kai migla apgaubė miestą, Ieva Aleknaitė ir Tomas Zukauskas susitiko parke, kur pasakojo apie naujas literatūros tendencijas.",
+        {
+          "entities": [
+            [43, 58, "PERSON"],
+            [62, 78, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "130. Vakarą, kai miesto aikštėje susirinko daugybė žmonių, Martynas Petraitis, kartu su Aušra Salanavičiūtė, dalyvavo diskusijoje apie bendruomenės svarbą.",
+        {
+          "entities": [
+            [50, 68, "PERSON"],
+            [79, 100, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "131. Rytą, kai saulė spindėjo per debesis, Dainius Gricius ir Ieva Marozaitė surengė meninę parodą, kurioje dalyvavo įvairūs kūrybiniai talentai.",
+        {
+          "entities": [
+            [43, 58, "PERSON"],
+            [62, 77, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "132. Vakarą, kai miesto šurmulys susilpnėjo, Tomas Burbauskas ir Martyna Lileikaitė dalyvavo tradiciniame susitikime, aptardami senų laikų paslaptis.",
+        {
+          "entities": [
+            [45, 62, "PERSON"],
+            [66, 85, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "133. Rytą, kai pirmieji pavasario žiedai pradėjo žydėti, Aušra Balčiuvienė ir Dainius Norkus dalyvavo gamtos stebuklų parodoje.",
+        {
+          "entities": [
+            [50, 68, "PERSON"],
+            [72, 87, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "134. Vakarą, kai senovės miestelio aikštė apšvietėsi, Martynas Aleknauskas ir Ieva Rutkienė susitiko vietos kavinėje, aptardami naujus projektus.",
+        {
+          "entities": [
+            [55, 76, "PERSON"],
+            [80, 94, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "135. Rytą, kai oras dar krapštydavo, Tomas Petravičius ir Aušra Lazauskaitė susitiko miesto parke, kur kartu dalijosi kūrybos idėjomis.",
+        {
+          "entities": [
+            [40, 58, "PERSON"],
+            [62, 80, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "136. Vakarą, kai miesto aikštėje pulsuodavo gyvybe, Dainius Vaitiekus ir Martyna Urbonienė dalyvavo susitikime, aptardami bendruomenės reikalus.",
+        {
+          "entities": [
+            [55, 72, "PERSON"],
+            [76, 94, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "137. Rytą, kai saulė dar žvilgėjo, Ieva Žukauskienė ir Tomas Noreika susitiko senoje kavinėje, aptardami kultūros tendencijas.",
+        {
+          "entities": [
+            [40, 57, "PERSON"],
+            [61, 74, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "138. Vakarą, kai miesto gatvės apšvietė senoviniai žibintai, Dainius Martinkus ir Rasa Aleknauskaitė susitiko vietos turizmo centre.",
+        {
+          "entities": [
+            [50, 67, "PERSON"],
+            [71, 91, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "139. Rytą, kai gamta atgimsta, Martyna Petraitienė ir Tomas Zukauskas dalyvavo sporto renginyje, kur vyko daug entuziazmo.",
+        {
+          "entities": [
+            [35, 55, "PERSON"],
+            [59, 75, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "140. Vakarą, kai senovės miestelio aikštė apšvietėsi, Aušra Vasiliauskaitė ir Dainius Marčiulionis susitiko kavinėje, kur dalyvavo vietos bendruomenė.",
+        {
+          "entities": [
+            [50, 71, "PERSON"],
+            [75, 97, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "141. Rytą, kai migla dar sklandė virš miesto, Ieva Lukoševičiūtė ir Martynas Navickas surengė kūrybinę veiklą, skatinančią bendruomeniškumą.",
+        {
+          "entities": [
+            [45, 65, "PERSON"],
+            [69, 86, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "142. Vakarą, kai miesto šviesos sukūrė ypatingą atmosferą, Dainius Petraitis ir Aušra Balčiuvienė susitiko senovės rotušėje, aptardami istorinius įvykius.",
+        {
+          "entities": [
+            [55, 72, "PERSON"],
+            [76, 94, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "143. Rytą, kai pavasaris dar žadėjo naują pradžią, Tomas Morkus ir Ieva Smetonienė dalyvavo bendruomenės susitikime, dalindamiesi svajonėmis.",
+        {
+          "entities": [
+            [45, 57, "PERSON"],
+            [61, 77, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "144. Vakarą, kai senovės pastatai apšvietėsi, Dainius Aleknauskas ir Martyna Rutkienė dalyvavo meno festivale, pristatyti nauji kūrybiniai projektai.",
+        {
+          "entities": [
+            [50, 70, "PERSON"],
+            [74, 91, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "145. Rytą, kai saulė patekėjo pro langus, Ieva Baranauskaitė ir Tomas Zukauskas dalyvavo tradicinėje šventėje, dalindamiesi patirtimi.",
+        {
+          "entities": [
+            [40, 59, "PERSON"],
+            [63, 79, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "146. Vakarą, kai miesto gatvės pulsuodavo gyvybe, Dainius Petraitis ir Aušra Lileikienė dalyvavo miesto susitikime, aptardami socialinius klausimus.",
+        {
+          "entities": [
+            [50, 67, "PERSON"],
+            [71, 88, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "147. Rytą, kai pavasaris prasidėjo, Martyna Marčiulionienė ir Tomas Aleknauskas dalyvavo vietos kavinėje, aptardami naujus kultūros projektus.",
+        {
+          "entities": [
+            [35, 59, "PERSON"],
+            [63, 81, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "148. Vakarą, kai miesto šviesos susilpnėjo, Ieva Navickaitė ir Dainius Vaitiekus dalyvavo tradicinėje parodoje, pristatydami senus šeimos receptus.",
+        {
+          "entities": [
+            [45, 61, "PERSON"],
+            [65, 82, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "149. Rytą, kai saulė švelniai švietė, Martyna Aleknauskaitė ir Tomas Marčiulionis susitiko lauko kavinėje, dalindamiesi įspūdžiais apie gyvenimą.",
+        {
+          "entities": [
+            [40, 63, "PERSON"],
+            [67, 87, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "150. Vakarą, kai miesto aikštėje skambėjo muzika, Dainius Zukauskas ir Ieva Petraitienė dalyvavo bendruomenės šventėje, kur buvo daug džiaugsmo ir naujų idėjų.",
+        {
+          "entities": [
+            [50, 68, "PERSON"],
+            [72, 88, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "151. Rytą, kai anksti auštant, Jonas Kazlauskas ir Eglė Petrauskaitė nusprendė keliauti po nuostabų mišką. Jie atrado seną medį, po kuriuo sėdėjo Ieva Ramanauskaitė, kuri dalijosi savo pasakojimais apie senovės laikus. Miško kelyje skambėjo paukščių čiulbėjimas ir vėjo šnabždesiai, pripildę visus aplink esančius nuotykius ir svajones.",
+        {
+          "entities": [
+            [31, 50, "PERSON"],
+            [55, 72, "PERSON"],
+            [103, 123, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "152. Vasaros dieną, kai saulė spindėjo aukštai danguje, Martynas Vasiliauskas, Rasa Žukauskienė ir Tomas Kairys susitiko senamiesčio aikštėje. Jie kartu planavo tolimesnes keliones, aptardami dvaro šventių praeities šventes ir modernias tradicijas.",
+        {
+          "entities": [
+            [34, 56, "PERSON"],
+            [58, 76, "PERSON"],
+            [81, 96, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "153. Rudens vėjuotą rytą, kai medžių lapai šnarėjo, Aistė Petrauskaitė, Dainius Zukauskas ir Eglė Jankauskienė susirinko sename kavinėje, kad aptartų naujus literatūros projektus ir kultūros iniciatyvas, kurių esmę senovės išmintis ir šiuolaikinės idėjos puikiai susiliejo.",
+        {
+          "entities": [
+            [36, 54, "PERSON"],
+            [56, 70, "PERSON"],
+            [75, 94, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "154. Šiltą pavasario dieną, kai žiedai pradėjo skleistis, Ieva Ramanauskaitė, Tomas Morkus ir Martyna Aleknaitė vyko į botanikos sodą, kur kiekvienas atrado unikalių gamtos stebuklų ir paslėptų istorijų, įkvėpusių jų meninę kūrybą.",
+        {
+          "entities": [
+            [34, 54, "PERSON"],
+            [56, 70, "PERSON"],
+            [75, 94, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "155. Vakarą, kai miestas apšvietė senoviniai žibintai, Dainius Kavaliauskas ir Aušra Balčiuvienė susitiko centre, kad kartu pasidalintų patirtimi apie meną, muziką ir poeziją, kuri įkvėpė naujas kūrybines idėjas.",
+        {
+          "entities": [
+            [34, 55, "PERSON"],
+            [60, 80, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "156. Rytą, kai tyliai skrido paukščiai, Martynas Jankauskas, Rasa Petkevičiūtė ir Tomas Vaitiekus leidosi į nuotykių kupiną kelionę po kalnų takus, atrandant senovės dvaro paslaptis ir gamtos lobynus, kurie atgaivino jų sielas.",
+        {
+          "entities": [
+            [31, 49, "PERSON"],
+            [51, 68, "PERSON"],
+            [73, 90, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "157. Poilsio dieną, kai saulė glostė veidą švelniai, Aistė Žukauskienė ir Dainius Marčiulionis nusprendė surengti poezijos vakarą sename teatre, kur kalbėjo apie amžiną meilę, svajones ir prarastą jaunystės magiją.",
+        {
+          "entities": [
+            [31, 49, "PERSON"],
+            [54, 75, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "158. Vasaros karštą dieną, kai oras buvo kupinas energijos, Ieva Aleknaitė, Tomas Baranauskas ir Martyna Petraitienė susirinko prie upės, kur dalijosi įkvėpimo akimirkomis ir kūrybinėmis idėjomis, kurios skleidė džiaugsmą ir naujų svajonių žavesį.",
+        {
+          "entities": [
+            [31, 47, "PERSON"],
+            [49, 66, "PERSON"],
+            [72, 92, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "159. Rudens rytą, kai rasa dar spindėjo ant langų, Dainius Navickas ir Aušra Petrauskaitė ėmė organizuoti kultūrinę mugę, kurioje dalyvavo vietos menininkai, poetai ir istorijos mylėtojai, atgaivinantys praeities tradicijas.",
+        {
+          "entities": [
+            [31, 48, "PERSON"],
+            [53, 70, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "160. Vakarą, kai miesto gatvės pripildytos džiaugsmo ir šviesos, Jonas Karalius, Ieva Morkaitė ir Tomas Žukauskas surengė diskusiją apie modernią architektūrą bei tradicines vertybes, palikdami neišdildomus įspūdžius visiems dalyviams.",
+        {
+          "entities": [
+            [31, 46, "PERSON"],
+            [48, 63, "PERSON"],
+            [69, 85, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "161. Rytą, kai šviesa kirtė pro medžių šakas, Martyna Aleknaitė, Dainius Vaitiekus ir Rasa Jankauskienė vyko į meno galeriją, kur atrado naujus ekspozicijų projektus bei senų šedevrų paslaptis, įkvėpusias naujoms idėjoms.",
+        {
+          "entities": [
+            [31, 50, "PERSON"],
+            [52, 67, "PERSON"],
+            [72, 90, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "162. Vasaros dieną, kai gamta žydėjo visomis spalvomis, Ieva Petkevičiūtė, Tomas Morkus ir Aušra Lukoševičiūtė surengė muzikos ir poezijos festivalį, kuriame tradicija susimaišė su modernumu ir įkvėpė kūrybinius svajojimus.",
+        {
+          "entities": [
+            [31, 50, "PERSON"],
+            [52, 66, "PERSON"],
+            [71, 90, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "163. Rudens vakare, kai miestas užsidegė šviesomis, Dainius Karalius, Martyna Žukauskienė ir Tomas Petraitis susirinko sename rūmuose, aptardami istorijos vingius ir ateities vizijas, kurios skleidė paslaptį ir dvasinį atsinaujinimą.",
+        {
+          "entities": [
+            [31, 46, "PERSON"],
+            [48, 66, "PERSON"],
+            [71, 85, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "164. Rytą, kai pirmieji rudens lapai pradėjo krisiti, Ieva Morkaitė ir Dainius Balčiūnas leidosi į ilgos kelionės nuotykį po kaimo kelius, atrandant prarastą istoriją ir atkuriant senų tradicijų dvasinę esmę.",
+        {
+          "entities": [
+            [31, 46, "PERSON"],
+            [51, 66, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "165. Vasaros vakare, kai saulės spinduliai lėtai nyko, Martynas Vaitiekus, Rasa Petkevičiūtė ir Tomas Karalius surengė koncertą po atviru dangumi, kur garsai susimaišė su vėjo šnabždesiais, įkvepdami naujas mintis.",
+        {
+          "entities": [
+            [31, 48, "PERSON"],
+            [50, 68, "PERSON"],
+            [73, 88, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "166. Rytą, kai miestas dar nubudęs tyliai pradėjo skambėti, Aušra Žukauskienė ir Dainius Navickas susitiko sename kavinėje, kur kartu aptarė senųjų laikų paslaptis bei naujų idėjų kilmę.",
+        {
+          "entities": [
+            [31, 50, "PERSON"],
+            [55, 71, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "167. Vakarą, kai debesis lėtai išnyko, Ieva Karaliūtė, Martyna Morkauskienė ir Tomas Vasiliauskas leidosi į modernų menų centrą, kur išsirengė kūrybinė dirbtuvė, kupina inovacijų bei senų tradicijų prisiminimų.",
+        {
+          "entities": [
+            [31, 46, "PERSON"],
+            [48, 67, "PERSON"],
+            [72, 90, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "168. Rytą, kai miesto gatvės dar buvosi švelnios ir ramios, Dainius Aleknauskas, Rasa Žukauskienė ir Aušra Petkevičiūtė leidosi į nuotykių kupiną kelionę po senamiesčio labirintus, atrandant paslėptas istorijas bei nepamirštamas akimirkas.",
+        {
+          "entities": [
+            [31, 50, "PERSON"],
+            [55, 73, "PERSON"],
+            [78, 96, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "169. Vasaros dieną, kai giedėjo paukščių chorai, Ieva Morkaitė, Tomas Navickas ir Martyna Aleknaitė susirinko prie upės, kur vandens tėkmė priminė gyvenimo nuolatinį judėjimą ir nepaliaujamą pokytį.",
+        {
+          "entities": [
+            [31, 46, "PERSON"],
+            [48, 63, "PERSON"],
+            [68, 87, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "170. Rudens rytą, kai miestas apgaubtas rudeniniais lapais, Dainius Balčiūnas ir Aušra Vasiliauskaitė leidosi į kelionę po kalnų takus, kur kiekvienas posūkis buvo lyg atskleidžianti senovės legendą.",
+        {
+          "entities": [
+            [31, 46, "PERSON"],
+            [51, 71, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "171. Vakarą, kai miesto aikštės apšvietėsi senoviniais žibintais, Martyna Žukauskienė, Tomas Petraitis ir Ieva Karaliūtė surengė dainų vakarą, kuriame skambėjo senos liaudies dainos ir naujos melodijos, įkvėpusios nepakartojamus prisiminimus.",
+        {
+          "entities": [
+            [31, 50, "PERSON"],
+            [55, 70, "PERSON"],
+            [75, 90, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "172. Rytą, kai debesis lėtai plaukė virš miesto, Dainius Navickas, Aušra Aleknaitė ir Martyna Vaitiekus leidosi į kultūrinę kelionę, kur atrado ne tik istorinius paminklus, bet ir senovės paslaptis, kurios atgaivino kūrybinius svajojimus.",
+        {
+          "entities": [
+            [31, 46, "PERSON"],
+            [51, 67, "PERSON"],
+            [72, 90, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "173. Vasaros karštą dieną, kai miestas spindėjo gyvybe, Ieva Morkaitė, Tomas Zukauskas ir Dainius Petraitis susitiko vietiniame festivalyje, kuriame muzika ir menas susijungė į vieningą simfoniją, praturtindami kiekvieno sielą.",
+        {
+          "entities": [
+            [31, 46, "PERSON"],
+            [48, 63, "PERSON"],
+            [68, 85, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "174. Rudens vakare, kai miestas apšvietėsi auksiniais spinduliais, Aušra Vasiliauskaitė ir Martyna Navickas leidosi į meno dirbtuvę, kur kūryba ir tradicijos susimaišė nepaprastai švelniai, palikdamos gilų įspūdį.",
+        {
+          "entities": [
+            [31, 50, "PERSON"],
+            [55, 73, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "175. Rytą, kai pirmieji rudens lapai dar nebuvo visiškai iškritę, Dainius Karalius, Ieva Aleknaitė ir Tomas Petraitis nusprendė susitikti sename parke, kur dalijosi senovės laikų prisiminimais bei naujomis viltimis.",
+        {
+          "entities": [
+            [31, 46, "PERSON"],
+            [51, 66, "PERSON"],
+            [71, 85, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "176. Vakarą, kai miesto gatvės pripildytos buvo istorijų ir legendų, Martyna Žukauskienė, Aušra Petkevičiūtė ir Dainius Morkus surengė meno festivalį, kuriame atgimė senosios dailės tradicijos ir įkvėpė naujas vizijas.",
+        {
+          "entities": [
+            [31, 50, "PERSON"],
+            [55, 73, "PERSON"],
+            [78, 92, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "177. Rytą, kai miestas dar alsavo ramybe, Ieva Žukauskienė ir Tomas Noreika susitiko senoje kavinėje, aptardami naujas kultūros tendencijas bei senų istorijų išmintį, kurią perduoda laikas.",
+        {
+          "entities": [
+            [31, 46, "PERSON"],
+            [51, 67, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "178. Vasaros dieną, kai miestas buvo pilnas gyvybės ir kūrybos, Dainius Petraitis, Martyna Vasiliauskaitė ir Aušra Žukauskienė surengė interaktyvų susitikimą, kuriame dalyvavo vietos menininkai, aptardami naujas idėjas ir senų tradicijų palikimą.",
+        {
+          "entities": [
+            [31, 46, "PERSON"],
+            [48, 68, "PERSON"],
+            [73, 90, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "179. Rytą, kai miestas dar alsavo nauju gyvenimu, Tomas Navickas ir Ieva Morkaitė leidosi į senovės dvaro ekskursiją, kur kiekvienas žingsnis atskleidė naują paslaptį ir įkvepiančią istoriją.",
+        {
+          "entities": [
+            [31, 46, "PERSON"],
+            [51, 66, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "180. Vakarą, kai miesto aikštės prisipildė šviesos ir šešėlių, Dainius Karalius, Aušra Aleknaitė ir Martyna Petraitienė surengė kūrybinį vakarą, kurio metu gimė naujos meninės vizijos ir entuziastingos idėjos.",
+        {
+          "entities": [
+            [31, 46, "PERSON"],
+            [51, 67, "PERSON"],
+            [72, 90, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "181. Rytą, kai oras buvo gaivus ir skaidrus, Ieva Žukauskienė ir Tomas Petraitis susitiko sename kavinėje, dalindamiesi prisiminimais apie praeities laikus ir svajonėmis apie ateitį, kurios lydėjo jų sielas.",
+        {
+          "entities": [
+            [31, 46, "PERSON"],
+            [51, 66, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "182. Vasaros dieną, kai gamta kvėpavo nauju gyvenimu, Dainius Vaitiekus, Martyna Jankauskienė ir Aušra Navickaitė leidosi į kūrybinių idėjų kelionę, atskleidžiant senų meno paslaptis ir naujų tradicijų šviesą.",
+        {
+          "entities": [
+            [31, 46, "PERSON"],
+            [48, 67, "PERSON"],
+            [72, 90, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "183. Rytą, kai pirmieji pavasario žiedai pradėjo skleistis, Tomas Aleknauskas, Ieva Petraitienė ir Dainius Žukauskas susitiko senoje turgavietėje, kur kiekviena prekė ir amatas pasakojo nepaprastą istoriją.",
+        {
+          "entities": [
+            [31, 48, "PERSON"],
+            [50, 66, "PERSON"],
+            [71, 87, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "184. Vakarą, kai miesto gatvės apšvietėsi švelniais spinduliais, Martyna Vasiliauskaitė ir Dainius Petraitis surengė interaktyvų susitikimą, kuriame dalijosi menininkų kūrybos paslaptimis ir nepakartojamomis istorijomis.",
+        {
+          "entities": [
+            [31, 50, "PERSON"],
+            [55, 72, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "185. Rytą, kai debesis plaukė virš miesto, Ieva Žukauskienė, Tomas Navickas ir Aušra Petkevičiūtė susitiko kavinėje, aptardami naujus kultūros projektus bei atkuriant senųjų laikų išmintį.",
+        {
+          "entities": [
+            [31, 46, "PERSON"],
+            [51, 67, "PERSON"],
+            [72, 90, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "186. Vasaros rytą, kai oras buvo kupinas energijos, Dainius Karalius, Martyna Jankauskienė ir Tomas Vaitiekus leidosi į nuotykių kupiną kelionę po miesto parkus, kur kiekvienas žingsnis atskleidė senų paslapčių dvasinį skambesį.",
+        {
+          "entities": [
+            [31, 46, "PERSON"],
+            [48, 67, "PERSON"],
+            [72, 88, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "187. Rytą, kai miestas dar alsavo ramybe, Aušra Aleknaitė ir Dainius Navickas susitiko senojoje bibliotekoje, kur senos knygos atskleidė praeities išmintį ir atnešė naujų svajonių žavesį.",
+        {
+          "entities": [
+            [31, 50, "PERSON"],
+            [55, 71, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "188. Vakarą, kai miesto aikštės prisipildė senųjų istorijų, Martyna Petraitienė, Tomas Zukauskas ir Ieva Morkaitė surengė kultūrinį susitikimą, kuriame skambėjo senovės liaudies dainos ir gimė naujos melodijos.",
+        {
+          "entities": [
+            [31, 50, "PERSON"],
+            [55, 70, "PERSON"],
+            [75, 90, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "189. Rytą, kai saulės spinduliai prasiskverbė pro senus pastatus, Dainius Petraitis ir Aušra Vasiliauskaitė susitiko miesto centre, aptardami naujas meno, muzikos ir literatūros tendencijas, kurios įkvėpė visus susirinkusius.",
+        {
+          "entities": [
+            [31, 46, "PERSON"],
+            [51, 69, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "190. Vasaros dieną, kai gamta spindėjo ryškiai, Tomas Navickas, Ieva Aleknaitė ir Martyna Žukauskienė leidosi į kūrybinę kelionę po senovės miestą, atrandant istorijas, kurios įkvėpė naujas idėjas ir svajones.",
+        {
+          "entities": [
+            [31, 46, "PERSON"],
+            [51, 66, "PERSON"],
+            [71, 90, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "191. Rytą, kai pirmieji pavasario žiedai pradėjo skleistis, Dainius Karalius, Aušra Jankauskienė ir Tomas Petraitis susitiko sename parodoje, kurioje dalyvavo vietos menininkai ir kultūros entuziastai, dalindamiesi naujomis vizijomis.",
+        {
+          "entities": [
+            [31, 46, "PERSON"],
+            [51, 70, "PERSON"],
+            [75, 89, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "192. Vakarą, kai miesto gatvės prisipildė senų pasakojimų, Ieva Žukauskienė, Martyna Aleknaitė ir Dainius Vaitiekus surengė interaktyvų muzikos vakarą, kupiną kūrybos ir naujų idėjų, kurie įkvėpė visus dalyvius.",
+        {
+          "entities": [
+            [31, 46, "PERSON"],
+            [51, 70, "PERSON"],
+            [75, 90, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "193. Rytą, kai miestas dar tyliai nubudęs, Tomas Petraitis ir Aušra Petkevičiūtė leidosi į kelionę po senovės turgų, kur atrado tradicinių amatų paslaptis bei modernių idėjų šaltinius.",
+        {
+          "entities": [
+            [31, 46, "PERSON"],
+            [51, 69, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "194. Vakarą, kai miesto aikštės apšvietėsi švelniai, Dainius Navickas, Ieva Morkaitė ir Martyna Petraitienė surengė kultūrinį vakarą, kuriame susipynė senovės tradicijos ir šiuolaikinės vizijos, įkvepiančios naujoms interpretacijoms.",
+        {
+          "entities": [
+            [31, 46, "PERSON"],
+            [51, 66, "PERSON"],
+            [71, 90, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "195. Rytą, kai pavasario vėjas atnešė naujų minčių, Tomas Zukauskas ir Aušra Aleknaitė leidosi į kelionę po senus dvaro koridorius, atrandant praeities paslaptis ir ateities svajones, kurios apgaubė jų širdis.",
+        {
+          "entities": [
+            [31, 46, "PERSON"],
+            [51, 69, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "196. Vakarą, kai miesto aikštės užpildytos buvo kultūros šviesos, Martyna Žukauskienė, Dainius Petraitis ir Ieva Navickaitė surengė tradicinį susitikimą, kuriame vyko meninės diskusijos ir kūrybinės dirbtuvės, atgaivindamos senų laikų išmintį.",
+        {
+          "entities": [
+            [31, 50, "PERSON"],
+            [55, 72, "PERSON"],
+            [77, 92, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "197. Rytą, kai debesis dar lėtai plaukė virš miesto, Tomas Navickas, Aušra Vasiliauskaitė ir Dainius Karalius leidosi į interaktyvų susitikimą, aptardami senovės architektūros bei šiuolaikinio dizaino tendencijas, kurios formuoja naują estetiką.",
+        {
+          "entities": [
+            [31, 46, "PERSON"],
+            [51, 70, "PERSON"],
+            [75, 90, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "198. Vakarą, kai miesto gatvės apšvietėsi senų žibintų šviesa, Ieva Morkaitė, Martyna Aleknaitė ir Tomas Petraitis surengė literatūros vakarą, kurio metu gimė naujos idėjos ir kūrybos vizijos, įkvėpusios visus dalyvius.",
+        {
+          "entities": [
+            [31, 46, "PERSON"],
+            [51, 70, "PERSON"],
+            [75, 89, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "199. Rytą, kai miestas dar alsavo nauju gyvenimu, Dainius Vaitiekus ir Aušra Žukauskienė susitiko senovėje turgavietėje, kur dalijosi istorijomis apie praeities didybę ir ateities svajones, kurias įkvėpė senųjų laikų išmintis.",
+        {
+          "entities": [
+            [31, 46, "PERSON"],
+            [51, 69, "PERSON"]
+          ]
+        }
+      ],
+      [
+        "200. Vakarą, kai miesto aikštėje skambėjo muzika, Tomas Navickas, Ieva Petraitienė ir Martyna Petraitienė surengė kultūrinį susitikimą, kuriame aptarė senovės tradicijas bei modernias vizijas, sujungdamos praeitį ir ateitį.",
+        {
+          "entities": [
+            [31, 46, "PERSON"],
+            [51, 66, "PERSON"],
+            [71, 90, "PERSON"]
+          ]
+        }
+      ]
+  ]

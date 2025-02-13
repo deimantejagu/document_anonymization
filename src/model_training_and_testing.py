@@ -40,10 +40,10 @@ def train_spacy(model_path, optimizer_path, data_path, iterations):
             # Save the model checkpoint and optimizer
             if ner_loss < best_loss:
                 best_loss = ner_loss
-                nlp.to_disk(f"src/spaCy/optimizer_checkpoint_{itn}.pkl")
-                with open(f"src/spaCy/model_checkpoint_{itn}", "wb") as f:
+                nlp.to_disk(f"src/spaCy/model_checkpoint_{itn}")
+                with open(f"src/spaCy/optimizer_checkpoint_{itn}.pkl", "wb") as f:
                     pickle.dump(optimizer, f)
-                print(f"Checkpoint saved at iteration {itn}")
+                print(f"Checkpoint saved at {itn} iteration")
 
 def test_spacy(model_path, data):
     nlp = spacy.load(model_path)
@@ -55,5 +55,6 @@ def test_spacy(model_path, data):
         if entities: 
             prediction = [line[0], {"entities": entities}]
             predictions.append(prediction)
+    print(predictions[0])
 
-    save_data("/NER/src/predictions.json", predictions)
+    save_data("/NER/src/dataset/predictions.json", predictions)
