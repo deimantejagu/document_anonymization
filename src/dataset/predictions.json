@@ -245,6 +245,12 @@
         }
     ],
     [
+        "29. Susitikime kalbėjo: Rasa, Saulius, ir Tautvydė.",
+        {
+            "entities": []
+        }
+    ],
+    [
         "30. Rytinį seminarą vedė: Ugnė, Vilius, ir Živilė.",
         {
             "entities": [
@@ -336,6 +342,12 @@
             "entities": [
                 "Cezaris."
             ]
+        }
+    ],
+    [
+        "41. Rytinį susitikimą vedė: Dalia, Eimantas, ir Foma.",
+        {
+            "entities": []
         }
     ],
     [
@@ -490,11 +502,23 @@
         }
     ],
     [
+        "59. Miesto kultūros šurmulyje, kai gatvės pilnos gyvybės, Aušra nusprendė surengti ekskursiją po senąjį teatrą. Ten ji prisiminė praeities spektaklius, o kartu su draugais, Dalyvių sąraše: Aušra, Ramūnas, ir Kristina, aptarė naujas kūrybines idėjas.",
+        {
+            "entities": []
+        }
+    ],
+    [
         "60. Pavasario dieną, kai gamta pradėjo žydėti, Ieva ir Dovydas išvyko į parką rinkti gėles. Jų kelionę praturtino senieji draugai, o Dalyvių sąraše: Ieva, Dovydas, ir Milda, dalijosi pasakojimais apie praeities pavasarius.",
         {
             "entities": [
                 "Dovydas"
             ]
+        }
+    ],
+    [
+        "61. Karšto vasaros metu, kai oras kupinas saulės spindulių, Dainius nusprendė surengti džiaugsmingą vakarėlį savo kieme. Jame susirinko seni draugai, o Dalyvių sąraše: Dainius, Lina, ir Justas, kartu šventė, dalijosi prisiminimais bei svajonėmis.",
+        {
+            "entities": []
         }
     ],
     [
@@ -590,6 +614,12 @@
         }
     ],
     [
+        "73. Rytą, kai rasa dar krapštydavo ant langų, Ieva nusprendė surengti meno parodą savo galerijoje. Dalyvių sąraše: Ieva, Mantas, ir Dovydas, kartu aptarė kūrybos naujoves.",
+        {
+            "entities": []
+        }
+    ],
+    [
         "74. Poilsio dieną, kai oras buvo švelnus ir ramus, Lina ir Aušra nusprendė pasivaikščioti senamiestyje. Jie aptarė meno ir architektūros paslaptis, o vėliau Dalyvių sąraše: Lina, Aušra, ir Dainius, kartu dalijosi savo įspūdžiais.",
         {
             "entities": [
@@ -612,6 +642,12 @@
             "entities": [
                 "Ramūnas"
             ]
+        }
+    ],
+    [
+        "77. Poilsio savaitgalį, kai miestas ramiai ilsėjosi, Vilius nusprendė surengti maudynes sename tvenkinyje. Kartu su draugais, Dalyvių sąraše: Vilius, Dainius, ir Lina, visi pasidžiaugė gamtos teikiama ramybe.",
+        {
+            "entities": []
         }
     ],
     [
@@ -649,6 +685,12 @@
         }
     ],
     [
+        "82. Rytą, kai miesto gatvės dar buvosi tylios, Lina nusprendė atnaujinti seną kavinę, kuri buvo jos mylimas kampelis. Ten susitiko su draugais, o Dalyvių sąraše: Lina, Mantas, ir Aušra, kartu dalijosi kūrybos idėjomis.",
+        {
+            "entities": []
+        }
+    ],
+    [
         "83. Poilsio dieną, kai oras buvo švelnus ir ramus, Justas ir Petras nusprendė aplankyti senovinę biblioteką, kur atrado pamirštų rankraščių lobyną. Dalyvių sąraše: Justas, Petras, ir Eglė, kartu dalijosi atradimų džiaugsmu.",
         {
             "entities": [
@@ -673,6 +715,12 @@
         }
     ],
     [
+        "86. Poilsio savaitgalį, kai gamta atgimsta, Mantas nusprendė surengti fotografijos ekskursiją mieste. Kartu su draugais, Dalyvių sąraše: Mantas, Dainius, ir Aušra, visi fiksavo nepamirštamus momentus.",
+        {
+            "entities": []
+        }
+    ],
+    [
         "87. Vasaros dieną, kai oras buvo kupinas šviesos, Justina nusprendė aplankyti menininkų studiją. Dalyvių sąraše: Justina, Eglė, ir Petras, kartu pasidalijo savo kūrybinėmis vizijomis.",
         {
             "entities": [
@@ -689,11 +737,23 @@
         }
     ],
     [
+        "89. Poilsio rytą, kai oras buvo gaivus ir skaidrus, Andrius nusprendė leistis į ilgesnį pasivaikščiojimą po miesto parką. Dalyvių sąraše: Andrius, Justas, ir Eglė, kartu dalijosi mintimis apie gyvenimo prasmę.",
+        {
+            "entities": []
+        }
+    ],
+    [
         "90. Vasaros vakare, kai dangus tapo margu ir paslaptingu, Milda ir Petras išvyko į seną kaimą, kad atrastų prarastus lobius. Dalyvių sąraše: Milda, Petras, ir Dovydas, kartu dalijosi savo nuotykiais bei atradimų džiaugsmu.",
         {
             "entities": [
                 "Petras"
             ]
+        }
+    ],
+    [
+        "91. Rytą, kai pirmieji saulės spinduliai prasiskverbė pro langus, Lina nusprendė surengti kūrybinę dirbtuvę savo studijoje. Dalyvių sąraše: Lina, Aušra, ir Justas, kartu dalijosi meno idėjomis bei vizijomis.",
+        {
+            "entities": []
         }
     ],
     [
@@ -737,11 +797,29 @@
         }
     ],
     [
+        "97. Poilsio dieną, kai oras buvo ramus ir malonus, Andrius nusprendė surengti meno ir literatūros susitikimą sename kavinėje. Dalyvių sąraše: Andrius, Justina, ir Milda, kartu dalijosi kūrybinėmis idėjomis bei pasakojimais.",
+        {
+            "entities": []
+        }
+    ],
+    [
         "98. Rytą, kai pirmieji rudens vėjai pradėjo šnibždėti, Vilius ir Dovydas nusprendė leistis į senąjį parką, kur anksčiau vyko paslaptingi susitikimai. Dalyvių sąraše: Vilius, Dovydas, ir Justas, kartu aptarė senų legendų paslaptis.",
         {
             "entities": [
                 "Dovydas"
             ]
+        }
+    ],
+    [
+        "99. Vakarą, kai dangus nusidažė žydinčiomis spalvomis, Lina nusprendė surengti poezijos vakarą lauke. Dalyvių sąraše: Lina, Eglė, ir Mantas, kartu dalijosi jausmingais žodžiais bei įspūdžiais.",
+        {
+            "entities": []
+        }
+    ],
+    [
+        "100. Poilsio dieną, kai miesto šurmulys sumažėjo, Justas nusprendė aplankyti senąją biblioteką, kur atrado pamirštų istorijų lobyną. Dalyvių sąraše: Justas, Milda, ir Aušra, kartu dalijosi atradimais bei prisiminimais apie praeitį.",
+        {
+            "entities": []
         }
     ],
     [
