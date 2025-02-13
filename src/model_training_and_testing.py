@@ -41,8 +41,8 @@ def train_spacy(model_path, optimizer_path, data_path, iterations):
             # Save the model checkpoint and optimizer
             if ner_loss < best_loss:
                 best_loss = ner_loss
-                nlp.to_disk(f"src/spaCy/model_checkpoint_{itn}")
-                with open(f"src/spaCy/optimizer_checkpoint_{itn}.pkl", "wb") as f:
+                nlp.to_disk(f"src/spaCy/best_model")
+                with open(f"src/spaCy/best_optimizer.pkl", "wb") as f:
                     pickle.dump(optimizer, f)
                 print(f"Checkpoint saved at {itn} iteration")
 
@@ -75,12 +75,12 @@ def test_spacy(model_path, data):
         entities_texts = [ent.text for ent in doc.ents]
         predictions.append([line, {"entities": entities_texts}])
 
-    precision = precision_score(true_entities_all, pred_entities_all)
-    recall = recall_score(true_entities_all, pred_entities_all)
-    f1 = f1_score(true_entities_all, pred_entities_all)
+    precision = precision_score(true_entities_all, pred_entities_all) * 100
+    recall = recall_score(true_entities_all, pred_entities_all) * 100
+    f1 = f1_score(true_entities_all, pred_entities_all) * 100
 
-    print(f"Precision: {precision:.3f}")
-    print(f"Recall: {recall:.3f}")
-    print(f"F1-score: {f1:.3f}")
+    print(f"Precision: {precision:.3f} %")
+    print(f"Recall: {recall:.3f} %")
+    print(f"F1-score: {f1:.3f} %")
 
     save_data("/NER/src/dataset/predictions.json", predictions)
