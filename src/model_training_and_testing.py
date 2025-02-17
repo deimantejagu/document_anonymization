@@ -6,7 +6,7 @@ from utils import load_data, save_data
 from spacy.training import Example
 from sklearn.metrics import precision_score, recall_score, f1_score
 
-def train_spacy(model_path, optimizer_path, data_path, iterations):
+def train_spacy(model_path, optimizer_path, train_data_path, validation_data_path, iterations, batch_size, validation_interval):
     nlp = spacy.load(model_path)
     if "ner" not in nlp.pipe_names:
         ner = nlp.create_pipe("ner")
@@ -14,12 +14,12 @@ def train_spacy(model_path, optimizer_path, data_path, iterations):
     else:
         ner = nlp.get_pipe("ner")
 
-    data = load_data(data_path)
+    data = load_data(train_data_path)
     for _, annotations in data:
         for ent in annotations.get("entities"):
             ner.add_label(ent[2])
 
-    best_loss = float("inf")
+    best_validation_f1 = 0
 
     other_pipes = [pipe for pipe in nlp.pipe_names if pipe != "ner"]
     with nlp.disable_pipes(*other_pipes):
@@ -30,24 +30,29 @@ def train_spacy(model_path, optimizer_path, data_path, iterations):
             optimizer = nlp.begin_training()
             
         for itn in range(iterations):
+            print("--------------------------------")
             print("Starting iteration " + str(itn), flush=True)
             random.shuffle(data)
             losses = {}
             examples = [Example.from_dict(nlp.make_doc(text), annotations) for text, annotations in data]
-            for example in examples:
-                nlp.update([example], drop=0.5, sgd=optimizer, losses=losses)
+            for i in range(0, len(examples), batch_size):
+                batch = examples[i:i+batch_size]
+                nlp.update(batch, drop=0.5, sgd=optimizer, losses=losses)
+                
             ner_loss = losses.get("ner", 0)
             print(f"NER Loss: {ner_loss:.4f}", flush=True)
 
-            # Save the model checkpoint and optimizer
-            if ner_loss < best_loss:
-                best_loss = ner_loss
-                nlp.to_disk(f"src/spaCy/best_model")
-                with open(f"src/spaCy/best_optimizer.pkl", "wb") as f:
-                    pickle.dump(optimizer, f)
-                print(f"Checkpoint saved at {itn} iteration", flush=True)
+            # Validate the model
+            if (itn + 1) % validation_interval == 0:
+                f1 = validate_spacy(model_path, validation_data_path)
+                if f1 > best_validation_f1:
+                    best_validation_f1 = f1
+                    nlp.to_disk(f"src/spaCy/best_model")
+                    with open(f"src/spaCy/best_optimizer.pkl", "wb") as f:
+                        pickle.dump(optimizer, f)
+                    print(f"Checkpoint saved at iteration {itn} based on validation F1: {f1:.2f}%", flush=True)
 
-def test_spacy(model_path, data):
+def validate_spacy(model_path, data):
     nlp = spacy.load(model_path)
     lines = load_data(data)
     true_entities_all = []
@@ -85,3 +90,5 @@ def test_spacy(model_path, data):
     print(f"F1-score: {f1:.3f} %")
 
     save_data("/NER/src/dataset/predictions.json", predictions)
+
+    return f1
