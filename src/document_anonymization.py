@@ -42,3 +42,4 @@ def anonymize_documents(documents_folder, processed_documents_folder, model_path
 
         with open(f"{processed_documents_folder}/html/{Path(file).stem}.html", "w", encoding="UTF-8") as f:
             f.write(html)
+            
