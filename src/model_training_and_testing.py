@@ -26,8 +26,12 @@ def train_spacy(model_path, optimizer_path, train_data_path, validation_data_pat
         if Path(optimizer_path).exists():
             with open(optimizer_path, "rb") as f:
                 optimizer = pickle.load(f)
+                optimizer.learn_rate = 0.001
+                optimizer.L2 = 0.001
         else:
             optimizer = nlp.begin_training()
+            optimizer.learn_rate = 0.001
+            optimizer.L2 = 0.001
             
         for epoch in range(epochs):
             print("--------------------------------")
@@ -37,7 +41,7 @@ def train_spacy(model_path, optimizer_path, train_data_path, validation_data_pat
             examples = [Example.from_dict(nlp.make_doc(text), annotations) for text, annotations in data]
             for i in range(0, len(examples), batch_size):
                 batch = examples[i:i+batch_size]
-                nlp.update(batch, drop=0.5, sgd=optimizer, losses=losses, L2=0.001)
+                nlp.update(batch, drop=0.5, sgd=optimizer, losses=losses)
                 
             ner_loss = losses.get("ner", 0)
             print(f"NER Loss: {ner_loss:.4f}", flush=True)
