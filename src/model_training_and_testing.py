@@ -47,8 +47,8 @@ def train_spacy(model_path, optimizer_path, train_data_path, validation_data_pat
                 f1 = validate_spacy(model_path, validation_data_path)
                 if f1 > best_validation_f1:
                     best_validation_f1 = f1
-                    nlp.to_disk(f"src/spaCy/best_model")
-                    with open(f"src/spaCy/best_optimizer.pkl", "wb") as f:
+                    nlp.to_disk(model_path)
+                    with open(optimizer_path, "wb") as f:
                         pickle.dump(optimizer, f)
                     print(f"Checkpoint saved at iteration {epoch} based on validation F1: {f1:.2f}%", flush=True)
 
