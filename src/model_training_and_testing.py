@@ -6,7 +6,7 @@ from utils import load_data, save_data
 from spacy.training import Example
 from sklearn.metrics import precision_score, recall_score, f1_score
 
-def train_spacy(model_path, optimizer_path, train_data_path, validation_data_path, iterations, batch_size, validation_interval):
+def train_spacy(model_path, optimizer_path, train_data_path, validation_data_path, epochs, batch_size, validation_interval):
     nlp = spacy.load(model_path)
     if "ner" not in nlp.pipe_names:
         ner = nlp.create_pipe("ner")
@@ -29,28 +29,28 @@ def train_spacy(model_path, optimizer_path, train_data_path, validation_data_pat
         else:
             optimizer = nlp.begin_training()
             
-        for itn in range(iterations):
+        for epoch in range(epochs):
             print("--------------------------------")
-            print("Starting iteration " + str(itn), flush=True)
+            print("Starting iteration " + str(epoch), flush=True)
             random.shuffle(data)
             losses = {}
             examples = [Example.from_dict(nlp.make_doc(text), annotations) for text, annotations in data]
             for i in range(0, len(examples), batch_size):
                 batch = examples[i:i+batch_size]
-                nlp.update(batch, drop=0.5, sgd=optimizer, losses=losses)
+                nlp.update(batch, drop=0.5, sgd=optimizer, losses=losses, L2=0.001)
                 
             ner_loss = losses.get("ner", 0)
             print(f"NER Loss: {ner_loss:.4f}", flush=True)
 
             # Validate the model
-            if (itn + 1) % validation_interval == 0:
+            if (epoch + 1) % validation_interval == 0:
                 f1 = validate_spacy(model_path, validation_data_path)
                 if f1 > best_validation_f1:
                     best_validation_f1 = f1
                     nlp.to_disk(f"src/spaCy/best_model")
                     with open(f"src/spaCy/best_optimizer.pkl", "wb") as f:
                         pickle.dump(optimizer, f)
-                    print(f"Checkpoint saved at iteration {itn} based on validation F1: {f1:.2f}%", flush=True)
+                    print(f"Checkpoint saved at iteration {epoch} based on validation F1: {f1:.2f}%", flush=True)
 
 def validate_spacy(model_path, data):
     nlp = spacy.load(model_path)
@@ -59,7 +59,7 @@ def validate_spacy(model_path, data):
     pred_entities_all = []
     predictions = []
     for line, annotation in lines:
-        labels = [tuple(x) for x in annotation["entities"]]
+        labels = [tuple(label) for label in annotation["entities"]]
         doc = nlp(line)
         pred_entities = [(ent.start_char, ent.end_char, ent.label_) for ent in doc.ents]
 
