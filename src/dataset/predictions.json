@@ -2,9 +2,7 @@
     [
         "1. Susitikime dalyvavo Aistė.",
         {
-            "entities": [
-                "Aistė"
-            ]
+            "entities": []
         }
     ],
     [
@@ -20,8 +18,7 @@
         "3. Renginyje dalyvavo Ieva, Lukas B. ir Milda Petrauskaitė.",
         {
             "entities": [
-                "Ieva",
-                "Lukas B",
+                "Ieva, Lukas",
                 "Milda Petrauskaitė"
             ]
         }
@@ -30,7 +27,7 @@
         "4. Rytinę konferenciją vedė Dainius A. B. Jankauskas, kuris pristatė svarbius duomenis.",
         {
             "entities": [
-                "Dainius A. B",
+                "A. B",
                 "Jankauskas"
             ]
         }
@@ -39,7 +36,6 @@
         "5. Renginį lanko: Ona, Ona R., R. Petravičius ir Vilius Petkevičiūtė.",
         {
             "entities": [
-                "Ona R",
                 "R. Petravičius",
                 "Vilius Petkevičiūtė"
             ]
@@ -49,10 +45,7 @@
         "6. Konferencijoje pasirodė: Algirdas, Birutė S., Cezaris T., Dalia ir Eimantas P.",
         {
             "entities": [
-                "Birutė S",
-                "Cezaris T",
-                "Dalia",
-                "Eimantas P."
+                "Eimantas P"
             ]
         }
     ],
@@ -60,8 +53,7 @@
         "7. Rytą susirinkime dalyvavo: Ignas, Irena D., Jurgita, Justinas K. ir Karolis Petrovičius, kurie aptarė naujus planus bei strategijas.",
         {
             "entities": [
-                "Irena D.",
-                "Jurgita",
+                "Ignas",
                 "Justinas K",
                 "Karolis Petrovičius"
             ]
@@ -71,14 +63,6 @@
         "8. Ilgas tekstas, kuriame dalyvavo: Aistė, Benas, Dovilė, Eimantė, Faustas, Gintarė, Henrikas, Ieva, Jurgita ir Kristupas, kurie aptarė strategijas.",
         {
             "entities": [
-                "Benas",
-                "Dovilė",
-                "Eimantė",
-                "Faustas",
-                "Gintarė",
-                "Henrikas",
-                "Ieva",
-                "Jurgita",
                 "Kristupas"
             ]
         }
@@ -110,7 +94,8 @@
         "12. Susitikimo dalyviai – Aidas ir Berta P.",
         {
             "entities": [
-                "Berta P."
+                "Berta",
+                "P."
             ]
         }
     ],
@@ -119,7 +104,6 @@
         {
             "entities": [
                 "Dovilė",
-                "Eimantas D.",
                 "Faustina"
             ]
         }
@@ -154,7 +138,6 @@
         {
             "entities": [
                 "B. M",
-                "Cintija D.",
                 "Donatas"
             ]
         }
@@ -172,8 +155,7 @@
         "19. Verslo susitikime dalyvavo: Giedrė, Hilda, ir Ilias M.",
         {
             "entities": [
-                "Hilda",
-                "Ilias M."
+                "Giedrė"
             ]
         }
     ],
@@ -181,9 +163,8 @@
         "20. Renginio metu susitiko: Juta, Kęstutis, Linas M., ir Marija.",
         {
             "entities": [
-                "Kęstutis",
-                "Linas M",
-                "Marija"
+                "Juta",
+                "Linas M"
             ]
         }
     ],
@@ -192,8 +173,7 @@
         {
             "entities": [
                 "Ieva Petrovičius",
-                "Jona",
-                "Kęstutis A."
+                "A."
             ]
         }
     ],
@@ -201,11 +181,7 @@
         "22. Svarbu: Linas, Milda, Neringa, Ovidijus, Paulina dalyvavo susitikime.",
         {
             "entities": [
-                "Linas",
-                "Milda",
-                "Neringa",
-                "Ovidijus",
-                "Paulina"
+                "Linas, Milda"
             ]
         }
     ],
@@ -214,7 +190,6 @@
         {
             "entities": [
                 "R. G",
-                "Sigutė L",
                 "Tautvydas"
             ]
         }
@@ -224,8 +199,7 @@
         {
             "entities": [
                 "Uldis",
-                "Vaidotas",
-                "Zita I."
+                "Zita I"
             ]
         }
     ],
@@ -233,10 +207,8 @@
         "25. Darbo grupėje dalyvavo: Aurelija, Bronius, Cezarina, Dainora ir Elvinas.",
         {
             "entities": [
-                "Bronius",
-                "Cezarina",
-                "Dainora",
-                "Elvinas"
+                "Aurelija, Bronius",
+                "Elvinas."
             ]
         }
     ],
@@ -244,7 +216,7 @@
         "26. Rytinėje sesijoje pasirodė: Fedor, Gabija, ir Henriko.",
         {
             "entities": [
-                "Gabija"
+                "Henriko"
             ]
         }
     ],
@@ -252,7 +224,8 @@
         "27. Svarbi informacija: Irena, Jurgis P., ir Kamilė dalyvavo susirinkime.",
         {
             "entities": [
-                "Jurgis P"
+                "Jurgis P",
+                "Kamilė"
             ]
         }
     ],
@@ -260,10 +233,6 @@
         "28. Lankytojų sąraše buvo: Laura, Mantas, Neringa, Oskaras ir Petras.",
         {
             "entities": [
-                "Laura",
-                "Mantas",
-                "Neringa",
-                "Oskaras",
                 "Petras"
             ]
         }
@@ -272,7 +241,7 @@
         "29. Susitikime kalbėjo: Rasa, Saulius, ir Tautvydė.",
         {
             "entities": [
-                "Saulius"
+                "Rasa, Saulius"
             ]
         }
     ],
@@ -281,7 +250,6 @@
         {
             "entities": [
                 "Ugnė",
-                "Vilius",
                 "Živilė"
             ]
         }
@@ -290,14 +258,6 @@
         "31. Savaitės susitikime kalbėjo: Aistė, Bėra, Cezar, Domas, Eglė, Foma, Gintaras, Hilda, Ilias ir Jona.",
         {
             "entities": [
-                "Bėra",
-                "Cezar",
-                "Domas",
-                "Eglė",
-                "Foma",
-                "Gintaras",
-                "Hilda",
-                "Ilias",
                 "Jona"
             ]
         }
@@ -306,14 +266,7 @@
         "32. Konferencijoje dalyvavo: Kęstutis, Laurynas, Mindaugas, Norberta P., Orestas, Paulė, Romas, Simona, Tadas, ir Ugnė.",
         {
             "entities": [
-                "Laurynas",
-                "Mindaugas",
-                "Norberta P",
-                "Orestas",
-                "Paulė",
-                "Romas",
-                "Simona",
-                "Tadas",
+                "Kęstutis",
                 "Ugnė"
             ]
         }
@@ -322,10 +275,8 @@
         "33. Renginyje dalyvavo: Vilius, V. I., Witas, Xena, Yver, ir Zydrė.",
         {
             "entities": [
-                "V. I",
-                "Witas",
-                "Xena",
-                "Yver"
+                "Vilius",
+                "V. I"
             ]
         }
     ],
@@ -335,7 +286,7 @@
             "entities": [
                 "A. L",
                 "B. M",
-                "L.",
+                "L.,",
                 "C. D",
                 "E."
             ]
@@ -346,9 +297,6 @@
         {
             "entities": [
                 "Dainius",
-                "Eimantė",
-                "Fedor",
-                "Gabija",
                 "Henrikas"
             ]
         }
@@ -357,7 +305,7 @@
         "36. Specialiame renginyje kalbėjo: Ignas, Jūratė, ir Kęstutis P.",
         {
             "entities": [
-                "Jūratė",
+                "Ignas, Jūratė",
                 "Kęstutis P"
             ]
         }
@@ -366,8 +314,6 @@
         "37. Renginio dalyviai: Linas, Mantas, Ieva ir Darius.",
         {
             "entities": [
-                "Mantas",
-                "Ieva",
                 "Darius"
             ]
         }
@@ -376,8 +322,7 @@
         "38. Vidurdienio susitikime dalyvavo: Oskaras, Pijus, ir Renata.",
         {
             "entities": [
-                "Oskaras",
-                "Pijus"
+                "Oskaras"
             ]
         }
     ],
@@ -386,9 +331,6 @@
         {
             "entities": [
                 "Simona",
-                "Tomas",
-                "Uldis",
-                "Violeta",
                 "Zygimantas"
             ]
         }
@@ -397,24 +339,21 @@
         "40. Verslo forume kalbėjo: Agnė, Beata, ir Cezaris.",
         {
             "entities": [
-                "Beata"
+                "Cezaris"
             ]
         }
     ],
     [
         "41. Rytinį susitikimą vedė: Dalia, Eimantas, ir Foma.",
         {
-            "entities": [
-                "Eimantas"
-            ]
+            "entities": []
         }
     ],
     [
         "42. Svečiuose dalyvavo: Giedrė, Henrikas, ir Ieva.",
         {
             "entities": [
-                "Henrikas",
-                "Ieva"
+                "Giedrė"
             ]
         }
     ],
@@ -423,7 +362,6 @@
         {
             "entities": [
                 "Jurgita",
-                "Kęstutis",
                 "Linas"
             ]
         }
@@ -432,9 +370,7 @@
         "44. Susitikime dalyvavo: Monika, Neringa, Ovidijus, Petrika, ir Rasa.",
         {
             "entities": [
-                "Neringa",
-                "Ovidijus",
-                "Petrika"
+                "Rasa"
             ]
         }
     ],
@@ -442,9 +378,6 @@
         "45. Renginio metu dalyvavo: Simas, Toma, Ugnius, Varda, ir Zita.",
         {
             "entities": [
-                "Toma",
-                "Ugnius",
-                "Varda",
                 "Zita"
             ]
         }
@@ -453,9 +386,9 @@
         "46. Šiandien susirinkime kalbėjo: Aistė B., Cezar D. E., ir Foma G.",
         {
             "entities": [
-                "Aistė B.",
-                "Cezar D. E",
-                "Foma G."
+                "Aistė B",
+                "E.,",
+                "G."
             ]
         }
     ],
@@ -463,14 +396,7 @@
         "47. Susitikime buvo prisijungę: Ignė, Jona, Kęstutis, Linas, Milda, Neringa, Oskaras, Petras, Rasa ir Saulius.",
         {
             "entities": [
-                "Jona",
-                "Kęstutis",
-                "Linas",
-                "Milda",
-                "Neringa",
-                "Oskaras",
-                "Petras",
-                "Rasa",
+                "Ignė",
                 "Saulius"
             ]
         }
@@ -479,9 +405,6 @@
         "48. Renginyje iškilo klausimas, kam priklauso: Tautvydas, Uldis, Violeta ir Zygimantas.",
         {
             "entities": [
-                "Tautvydas",
-                "Uldis",
-                "Violeta",
                 "Zygimantas"
             ]
         }
@@ -490,7 +413,6 @@
         "49. Seminaro metu pasirodė: Agnietė, Brigita, ir Celina.",
         {
             "entities": [
-                "Brigita",
                 "Celina"
             ]
         }
@@ -499,9 +421,7 @@
         "50. Svarbus pranešimas: Dovydas P., Elzbieta, Fedoras G., ir Grigorijus.",
         {
             "entities": [
-                "Dovydas P",
-                "Elzbieta",
-                "Fedoras G.",
+                "Fedoras G",
                 "Grigorijus"
             ]
         }
@@ -510,8 +430,7 @@
         "51. Rytą, po lietaus, Aistė nusprendė aplankyti seną draugą, Joną. Jie kartu keliaudavo po senamiesčio gatves, prisimindami praeities nuotykius. Po ilgos pasivaikščiojimo jie sustojo kavinėje, kur dar prisijungė ir kiti draugai: Lina Petkevičiūtė bei Petras, kurie taip pat turėjo nepaprastų istorijų apie jaunystę. Pokalbis tęsėsi iki vakaro, o kiekvienas pasakojo savo gyvenimo vingius.",
         {
             "entities": [
-                "Lina Petkevičiūtė",
-                "Petras"
+                "Lina Petkevičiūtė"
             ]
         }
     ],
@@ -519,11 +438,9 @@
         "52. Vakare, kai dangus buvo pripildytas žvaigždžių, Jonas ir Eglė susitiko sename parke. Jie aptarė savo nuotykius, o vėliau prie jų prisijungė Mantas, kuris atnešė naujų įžvalgų. Dalyvių sąraše: Jonas, Eglė, ir Mantas. Po to jie kartu gėrė arbatos ir dalijosi prisiminimais, palikdami nepakartojamą įspūdį visiems, kurie buvo toje akimirkoje.",
         {
             "entities": [
-                "Jonas",
                 "Eglė",
                 "Mantas",
                 "Jonas",
-                "Eglė",
                 "Mantas. Po"
             ]
         }
@@ -532,12 +449,8 @@
         "53. Dienos metu, saulėtą rytą, Petras ir Ieva nuvyko į gamtos parką, kur susitiko su Dainiumi ir Rasa. Jų pokalbis apie gyvenimo prasmę ir gamtos grožį įkvėpė visus praeivius. Vėliau, Dalyvių sąraše: Petras, Ieva, Dainius, ir Rasa, visi susirinko bendram pikniku, aptariant ateities planus.",
         {
             "entities": [
-                "Petras",
                 "Ieva",
-                "Rasa",
-                "Petras",
-                "Ieva",
-                "Dainius",
+                "Rasa. Jų",
                 "Rasa"
             ]
         }
@@ -546,11 +459,10 @@
         "54. Poilsio dieną, kai oras buvo šiltas, Milda P. L. vyko į biblioteką, kur susitiko su Viliumi ir Andriumi. Jie kartu aptarė naujas knygas ir dalijosi įspūdžiais apie seną literatūrą. Dalyvių sąraše: Milda P. L., Vilius, ir Andrius. Vėliau jie apsilankė kavinėje, kur kiekvienas pasakojo apie savo mėgstamiausią knygą.",
         {
             "entities": [
-                "Milda P. L",
+                "L. vyko",
                 "Andriumi",
-                "Milda P. L",
-                "Vilius",
-                "Andrius. Vėliau"
+                "L., Vilius",
+                "Andrius"
             ]
         }
     ],
@@ -558,7 +470,6 @@
         "55. Senamiesčio šurmulys ir gatvių muzikantai suvienijo jėgas, kai Aušra ir Dovydas organizavo nedidelį koncertą lauke. Miesto gyventojai susirinko klausytis, o vėliau Dalyvių sąraše: Aušra, Dovydas, ir Gabija, kartu dalijosi kūrybinėmis idėjomis apie meną ir kultūrą.",
         {
             "entities": [
-                "Dovydas",
                 "Dovydas",
                 "Gabija"
             ]
@@ -568,9 +479,7 @@
         "56. Rytas prasidėjo ramiai, kai Tomas ir Lina išvyko į kaimo kambarį, kad pailsėtų nuo miesto šurmulio. Ten jie prisiminė praeities laikus, o vėliau Dalyvių sąraše: Tomas, Lina, ir Eimantas, dalijosi savo patirtimi apie kaimo gyvenimo paprastumą.",
         {
             "entities": [
-                "Lina",
-                "Lina",
-                "Eimantas"
+                "Lina"
             ]
         }
     ],
@@ -579,7 +488,7 @@
         {
             "entities": [
                 "Dainius",
-                "Dainius",
+                "Rasa, Dainius",
                 "Justas"
             ]
         }
@@ -588,12 +497,8 @@
         "58. Vakarą nuspalvino raudoni ir auksiniai dangų atspindžiai, kai Mantas, Eglė ir Lukas susirinko prie upės, kad stebėtų saulėlydį. Jų pokalbis apie gamtos stebuklus įkvėpė visus, o Dalyvių sąraše: Mantas, Eglė, Lukas, ir Giedrius, visi kartu dalyvavo vietiniame meno festivale.",
         {
             "entities": [
-                "Mantas",
-                "Eglė",
                 "Lukas",
-                "Mantas",
-                "Eglė",
-                "Lukas",
+                "Eglė, Lukas",
                 "Giedrius"
             ]
         }
@@ -602,7 +507,6 @@
         "59. Miesto kultūros šurmulyje, kai gatvės pilnos gyvybės, Aušra nusprendė surengti ekskursiją po senąjį teatrą. Ten ji prisiminė praeities spektaklius, o kartu su draugais, Dalyvių sąraše: Aušra, Ramūnas, ir Kristina, aptarė naujas kūrybines idėjas.",
         {
             "entities": [
-                "Ramūnas",
                 "Kristina"
             ]
         }
@@ -611,7 +515,6 @@
         "60. Pavasario dieną, kai gamta pradėjo žydėti, Ieva ir Dovydas išvyko į parką rinkti gėles. Jų kelionę praturtino senieji draugai, o Dalyvių sąraše: Ieva, Dovydas, ir Milda, dalijosi pasakojimais apie praeities pavasarius.",
         {
             "entities": [
-                "Dovydas",
                 "Dovydas",
                 "Milda"
             ]
@@ -622,8 +525,6 @@
         {
             "entities": [
                 "Dainius",
-                "Dainius",
-                "Lina",
                 "Justas"
             ]
         }
@@ -632,9 +533,8 @@
         "62. Rytą, kai saulė švelniai švietė, Vilius ir Andrius nusprendė aplankyti seną uostą. Ten jie tyrinėjo jūrų istorijas ir senus laivus, o vėliau Dalyvių sąraše: Vilius, Andrius, ir Rasa, kartu dalijosi įspūdžiais apie praeities keliones.",
         {
             "entities": [
+                "Andrius",
                 "Vilius",
-                "Andrius",
-                "Andrius",
                 "Rasa"
             ]
         }
@@ -644,7 +544,7 @@
         {
             "entities": [
                 "Rasa",
-                "Rasa",
+                "Justas",
                 "Mantas"
             ]
         }
@@ -653,7 +553,6 @@
         "64. Šiltą rudens rytą, kai medžių lapai nusidažė auksu, Dovydas ir Eglė išvyko į seną pilį. Ten jie atrado paslėptų paslapčių, o vėliau Dalyvių sąraše: Dovydas, Eglė, ir Milda, kartu aptarė pilies legendas.",
         {
             "entities": [
-                "Eglė",
                 "Eglė",
                 "Milda"
             ]
@@ -664,7 +563,6 @@
         {
             "entities": [
                 "Aušra",
-                "Aušra",
                 "Dainius"
             ]
         }
@@ -673,7 +571,6 @@
         "66. Po ilgų darbo dienų, kai miesto gatvės nusiramino, Tomas ir Lina nusprendė vykti į kalnus pasidžiaugti gamtos ramybe. Jie vaikščiojo takais, o vėliau Dalyvių sąraše: Tomas, Lina, ir Justas, kartu dalijosi įspūdžiais apie kalnų grožį.",
         {
             "entities": [
-                "Lina",
                 "Lina",
                 "Justas"
             ]
@@ -684,7 +581,6 @@
         {
             "entities": [
                 "Gabija",
-                "Gabija",
                 "Eglė"
             ]
         }
@@ -694,7 +590,7 @@
         {
             "entities": [
                 "Dainius",
-                "Dainius",
+                "Justas",
                 "Mantas"
             ]
         }
@@ -704,7 +600,6 @@
         {
             "entities": [
                 "Vilius",
-                "Vilius",
                 "Andrius"
             ]
         }
@@ -713,10 +608,8 @@
         "70. Šiltą vasaros dieną, kai saulė spindėjo be debesies, Dainius ir Lina nusprendė surengti pikniką prie upės. Jie dalijosi juokais ir prisiminimais, o vėliau Dalyvių sąraše: Dainius, Lina, ir Petras, kartu džiaugėsi gamtos dovanomis.",
         {
             "entities": [
-                "Dainius",
                 "Lina",
                 "Dainius",
-                "Lina",
                 "Petras"
             ]
         }
@@ -726,7 +619,7 @@
         {
             "entities": [
                 "Eglė",
-                "Eglė",
+                "Justas",
                 "Milda"
             ]
         }
@@ -736,27 +629,22 @@
         {
             "entities": [
                 "Andrius",
-                "Andrius"
+                "Violeta"
             ]
         }
     ],
     [
         "73. Rytą, kai rasa dar krapštydavo ant langų, Ieva nusprendė surengti meno parodą savo galerijoje. Dalyvių sąraše: Ieva, Mantas, ir Dovydas, kartu aptarė kūrybos naujoves.",
         {
-            "entities": [
-                "Mantas",
-                "Dovydas"
-            ]
+            "entities": []
         }
     ],
     [
         "74. Poilsio dieną, kai oras buvo švelnus ir ramus, Lina ir Aušra nusprendė pasivaikščioti senamiestyje. Jie aptarė meno ir architektūros paslaptis, o vėliau Dalyvių sąraše: Lina, Aušra, ir Dainius, kartu dalijosi savo įspūdžiais.",
         {
             "entities": [
-                "Lina",
                 "Aušra",
                 "Lina",
-                "Aušra",
                 "Dainius"
             ]
         }
@@ -765,9 +653,6 @@
         "75. Vasaros dieną, kai oras buvo kupinas energijos, Petras ir Justina išvyko į ežerą plaukti. Vandens bangos ir gamtos ramybė įkvėpė juos, o vėliau Dalyvių sąraše: Petras, Justina, ir Milda, kartu mėgavosi laisvės jausmu.",
         {
             "entities": [
-                "Petras",
-                "Justina",
-                "Petras",
                 "Justina",
                 "Milda"
             ]
@@ -777,10 +662,8 @@
         "76. Rytą, kai debesis dar slydo virš kalnų, Andrius ir Ramūnas nusprendė leistis į žygį. Jie kopė aukštyn, aptardami gamtos dovanų paslaptis, o vėliau Dalyvių sąraše: Andrius, Ramūnas, ir Eglė, kartu džiaugėsi nuotykių akimirkomis.",
         {
             "entities": [
-                "Andrius",
                 "Ramūnas",
                 "Andrius",
-                "Ramūnas",
                 "Eglė"
             ]
         }
@@ -790,7 +673,6 @@
         {
             "entities": [
                 "Vilius",
-                "Dainius",
                 "Lina"
             ]
         }
@@ -800,7 +682,7 @@
         {
             "entities": [
                 "Milda",
-                "Milda",
+                "Justina",
                 "Petras"
             ]
         }
@@ -809,8 +691,6 @@
         "79. Rytą, kai migla dar uždengė miesto gatves, Dovydas ir Eglė išvyko į dykumą, kad patirtų neįprastą gamtos grožį. Vėliau Dalyvių sąraše: Dovydas, Eglė, ir Andrius, kartu dalijosi savo nuotykiais.",
         {
             "entities": [
-                "Eglė",
-                "Vėliau Dalyvių",
                 "Eglė",
                 "Andrius"
             ]
@@ -821,7 +701,6 @@
         {
             "entities": [
                 "Milda",
-                "Milda",
                 "Lina"
             ]
         }
@@ -830,10 +709,8 @@
         "81. Vasaros vakarą, kai dangus keitė spalvas, Dainius ir Justas surengė lauko žygį po žvaigždėtą dangų. Dalyvių sąraše: Dainius, Justas, ir Eglė, kartu dalijosi savo svajonėmis bei ateities planais.",
         {
             "entities": [
-                "Dainius",
                 "Justas",
                 "Dainius",
-                "Justas",
                 "Eglė"
             ]
         }
@@ -843,7 +720,6 @@
         {
             "entities": [
                 "Lina",
-                "Mantas",
                 "Aušra"
             ]
         }
@@ -853,7 +729,7 @@
         {
             "entities": [
                 "Petras",
-                "Petras",
+                "Justas",
                 "Eglė"
             ]
         }
@@ -862,9 +738,7 @@
         "84. Vakarą, kai miesto dangus nusidažė rožinėmis ir violetinėmis spalvomis, Dovydas ir Milda surengė kūrybinę dirbtuvę lauke. Dalyvių sąraše: Dovydas, Milda, ir Ramūnas, kartu dalijosi savo idėjomis ir įkvėpimu.",
         {
             "entities": [
-                "Milda",
-                "Milda",
-                "Ramūnas"
+                "Milda"
             ]
         }
     ],
@@ -873,7 +747,7 @@
         {
             "entities": [
                 "Lina",
-                "Lina",
+                "Eglė, Lina",
                 "Justas"
             ]
         }
@@ -881,18 +755,14 @@
     [
         "86. Poilsio savaitgalį, kai gamta atgimsta, Mantas nusprendė surengti fotografijos ekskursiją mieste. Kartu su draugais, Dalyvių sąraše: Mantas, Dainius, ir Aušra, visi fiksavo nepamirštamus momentus.",
         {
-            "entities": [
-                "Mantas",
-                "Dainius",
-                "Aušra"
-            ]
+            "entities": []
         }
     ],
     [
         "87. Vasaros dieną, kai oras buvo kupinas šviesos, Justina nusprendė aplankyti menininkų studiją. Dalyvių sąraše: Justina, Eglė, ir Petras, kartu pasidalijo savo kūrybinėmis vizijomis.",
         {
             "entities": [
-                "Eglė",
+                "Justina",
                 "Petras"
             ]
         }
@@ -901,10 +771,8 @@
         "88. Rytą, kai migla dar uždengė miesto gatves, Dainius ir Vilius nusprendė išbandyti naują kavos namų idėją. Dalyvių sąraše: Dainius, Vilius, ir Lina, kartu aptarė verslo planus bei kūrybinius sprendimus.",
         {
             "entities": [
-                "Dainius",
                 "Vilius",
                 "Dainius",
-                "Vilius",
                 "Lina"
             ]
         }
@@ -914,7 +782,6 @@
         {
             "entities": [
                 "Andrius",
-                "Justas",
                 "Eglė"
             ]
         }
@@ -923,9 +790,7 @@
         "90. Vasaros vakare, kai dangus tapo margu ir paslaptingu, Milda ir Petras išvyko į seną kaimą, kad atrastų prarastus lobius. Dalyvių sąraše: Milda, Petras, ir Dovydas, kartu dalijosi savo nuotykiais bei atradimų džiaugsmu.",
         {
             "entities": [
-                "Petras",
-                "Petras",
-                "Dovydas"
+                "Petras"
             ]
         }
     ],
@@ -934,7 +799,6 @@
         {
             "entities": [
                 "Lina",
-                "Aušra",
                 "Justas"
             ]
         }
@@ -943,10 +807,8 @@
         "92. Po ilgų darbo savaičių, kai siela troško poilsio, Dainius ir Andrius nusprendė leistis į kelionę į senąjį miestelį. Dalyvių sąraše: Dainius, Andrius, ir Eglė, kartu atrado naujų draugystės takų.",
         {
             "entities": [
-                "Dainius",
                 "Andrius",
                 "Dainius",
-                "Andrius",
                 "Eglė"
             ]
         }
@@ -955,7 +817,7 @@
         "93. Vasaros dieną, kai gamta spindėjo, Justina nusprendė surengti poezijos vakarą lauke. Dalyvių sąraše: Justina, Lina, ir Petras, kartu dalijosi jausmingais eilėraščiais bei istorijomis.",
         {
             "entities": [
-                "Lina",
+                "Justina",
                 "Petras"
             ]
         }
@@ -964,11 +826,7 @@
         "94. Rytą, kai miestas dar buvo apsuptas ramybės, Mantas ir Vilius išvyko į senąją pilį, kad atrastų prarastus paslapčių fragmentus. Dalyvių sąraše: Mantas, Vilius, ir Dovydas, kartu dalijosi istorijomis apie senus laikus.",
         {
             "entities": [
-                "Mantas",
-                "Vilius",
-                "Mantas",
-                "Vilius",
-                "Dovydas"
+                "Vilius"
             ]
         }
     ],
@@ -976,7 +834,6 @@
         "95. Poilsio vakare, kai miesto šviesos žaidė ant senų pastatų, Aušra ir Eglė nusprendė aplankyti mažą parodą vietinėje galerijoje. Dalyvių sąraše: Aušra, Eglė, ir Justas, kartu aptarė kūrybos naujoves.",
         {
             "entities": [
-                "Eglė",
                 "Eglė",
                 "Justas"
             ]
@@ -986,10 +843,8 @@
         "96. Vasaros rytą, kai oras buvo kupinas energijos, Dainius ir Petras nusprendė surengti sporto varžybas miesto parke. Dalyvių sąraše: Dainius, Petras, ir Lina, kartu dalijosi entuziazmu bei varžybų dvasia.",
         {
             "entities": [
-                "Dainius",
                 "Petras",
                 "Dainius",
-                "Petras",
                 "Lina"
             ]
         }
@@ -999,7 +854,6 @@
         {
             "entities": [
                 "Andrius",
-                "Justina",
                 "Milda"
             ]
         }
@@ -1009,7 +863,7 @@
         {
             "entities": [
                 "Dovydas",
-                "Dovydas",
+                "Vilius",
                 "Justas"
             ]
         }
@@ -1019,7 +873,6 @@
         {
             "entities": [
                 "Lina",
-                "Eglė",
                 "Mantas"
             ]
         }
@@ -1028,8 +881,7 @@
         "100. Poilsio dieną, kai miesto šurmulys sumažėjo, Justas nusprendė aplankyti senąją biblioteką, kur atrado pamirštų istorijų lobyną. Dalyvių sąraše: Justas, Milda, ir Aušra, kartu dalijosi atradimais bei prisiminimais apie praeitį.",
         {
             "entities": [
-                "Milda",
-                "Aušra"
+                "Justas"
             ]
         }
     ],
@@ -1090,7 +942,6 @@
         "107. Vasaros karštą dieną, Aušra Dominyte ir Martynas Petrauskas vyko į koncertą, kur susitiko žymių muzikos menininkų grupė.",
         {
             "entities": [
-                "Aušra Dominyte",
                 "Martynas Petrauskas"
             ]
         }
@@ -1117,7 +968,6 @@
         "110. Seną vasaros dieną, kai gamta kvėpavo, Ieva Ramanauskaitė surengė parodą, kurioje dalyvavo ir kiti menininkai, tarp jų – Dainius Krivickas.",
         {
             "entities": [
-                "Ieva Ramanauskaitė",
                 "Dainius Krivickas"
             ]
         }
@@ -1180,7 +1030,6 @@
         "117. Vakarą, kai miestas apšvietė šviesos žiburėliais, Ieva Dambrauskaitė ir Dainius Stankevičius dalyvavo kultūriniame susitikime, aptardami meną.",
         {
             "entities": [
-                "Ieva Dambrauskaitė",
                 "Dainius Stankevičius"
             ]
         }
@@ -1188,9 +1037,7 @@
     [
         "118. Rytą, kai debesis lėtai išnyko, Martynas Jurkšaitis surengė ekskursiją po senovinį parką, kurioje dalyvavo ir kiti kultūros mylėtojai.",
         {
-            "entities": [
-                "Martynas Jurkšaitis"
-            ]
+            "entities": []
         }
     ],
     [
@@ -1251,7 +1098,6 @@
         "125. Rytą, kai pavasaris atnešė naują viltį, Tomas Marčiulionis ir Aušra Jankauskienė dalyvavo mieste surengtoje parodoje.",
         {
             "entities": [
-                "Tomas Marčiulionis",
                 "Aušra Jankauskienė"
             ]
         }
@@ -1387,7 +1233,7 @@
         {
             "entities": [
                 "Aušra Vasiliauskaitė",
-                "Dainius Marčiulionis"
+                "Dainius"
             ]
         }
     ],
@@ -1404,7 +1250,6 @@
         "142. Vakarą, kai miesto šviesos sukūrė ypatingą atmosferą, Dainius Petraitis ir Aušra Balčiuvienė susitiko senovės rotušėje, aptardami istorinius įvykius.",
         {
             "entities": [
-                "Dainius Petraitis",
                 "Aušra Balčiuvienė"
             ]
         }
@@ -1440,7 +1285,6 @@
         "146. Vakarą, kai miesto gatvės pulsuodavo gyvybe, Dainius Petraitis ir Aušra Lileikienė dalyvavo miesto susitikime, aptardami socialinius klausimus.",
         {
             "entities": [
-                "Dainius Petraitis",
                 "Aušra Lileikienė"
             ]
         }
@@ -1545,7 +1389,7 @@
         {
             "entities": [
                 "Aistė Žukauskienė",
-                "Dainius Marčiulionis"
+                "Dainius"
             ]
         }
     ],
@@ -1680,7 +1524,6 @@
         {
             "entities": [
                 "Martyna Žukauskienė",
-                "Tomas Petraitis",
                 "Ieva Karaliūtė"
             ]
         }
@@ -1747,7 +1590,6 @@
         "178. Vasaros dieną, kai miestas buvo pilnas gyvybės ir kūrybos, Dainius Petraitis, Martyna Vasiliauskaitė ir Aušra Žukauskienė surengė interaktyvų susitikimą, kuriame dalyvavo vietos menininkai, aptardami naujas idėjas ir senų tradicijų palikimą.",
         {
             "entities": [
-                "Dainius Petraitis",
                 "Martyna Vasiliauskaitė",
                 "Aušra Žukauskienė"
             ]
@@ -1853,7 +1695,6 @@
         "189. Rytą, kai saulės spinduliai prasiskverbė pro senus pastatus, Dainius Petraitis ir Aušra Vasiliauskaitė susitiko miesto centre, aptardami naujas meno, muzikos ir literatūros tendencijas, kurios įkvėpė visus susirinkusius.",
         {
             "entities": [
-                "Dainius Petraitis",
                 "Aušra Vasiliauskaitė"
             ]
         }
@@ -1892,7 +1733,6 @@
         "193. Rytą, kai miestas dar tyliai nubudęs, Tomas Petraitis ir Aušra Petkevičiūtė leidosi į kelionę po senovės turgų, kur atrado tradicinių amatų paslaptis bei modernių idėjų šaltinius.",
         {
             "entities": [
-                "Tomas Petraitis",
                 "Aušra Petkevičiūtė"
             ]
         }
@@ -1921,7 +1761,6 @@
         {
             "entities": [
                 "Martyna Žukauskienė",
-                "Dainius Petraitis",
                 "Ieva Navickaitė"
             ]
         }
