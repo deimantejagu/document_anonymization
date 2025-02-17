@@ -1,6 +1,7 @@
 import spacy
 import random
 import pickle
+from pathlib import Path
 from utils import load_data, save_data
 from spacy.training import Example
 from sklearn.metrics import precision_score, recall_score, f1_score
@@ -22,21 +23,21 @@ def train_spacy(model_path, optimizer_path, data_path, iterations):
 
     other_pipes = [pipe for pipe in nlp.pipe_names if pipe != "ner"]
     with nlp.disable_pipes(*other_pipes):
-        if optimizer_path is not None:
+        if Path(optimizer_path).exists():
             with open(optimizer_path, "rb") as f:
                 optimizer = pickle.load(f)
         else:
             optimizer = nlp.begin_training()
             
         for itn in range(iterations):
-            print("Starting iteration " + str(itn))
+            print("Starting iteration " + str(itn), flush=True)
             random.shuffle(data)
             losses = {}
             examples = [Example.from_dict(nlp.make_doc(text), annotations) for text, annotations in data]
             for example in examples:
-                nlp.update([example], drop=0.2, sgd=optimizer, losses=losses)
+                nlp.update([example], drop=0.5, sgd=optimizer, losses=losses)
             ner_loss = losses.get("ner", 0)
-            print(f"NER Loss: {ner_loss:.4f}")
+            print(f"NER Loss: {ner_loss:.4f}", flush=True)
 
             # Save the model checkpoint and optimizer
             if ner_loss < best_loss:
@@ -44,7 +45,7 @@ def train_spacy(model_path, optimizer_path, data_path, iterations):
                 nlp.to_disk(f"src/spaCy/best_model")
                 with open(f"src/spaCy/best_optimizer.pkl", "wb") as f:
                     pickle.dump(optimizer, f)
-                print(f"Checkpoint saved at {itn} iteration")
+                print(f"Checkpoint saved at {itn} iteration", flush=True)
 
 def test_spacy(model_path, data):
     nlp = spacy.load(model_path)
