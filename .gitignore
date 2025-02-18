@@ -1,3 +1,4 @@
 __pycache__/
 src/documents/
 src/processed_documents/
+src/dataset/predictions.json
