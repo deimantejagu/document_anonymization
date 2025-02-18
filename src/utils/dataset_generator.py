@@ -17,7 +17,7 @@ def generate_dataset(num_sentences, names_counter):
         action = random.choice(ACTIONS)
         conclusion = random.choice(CONCLUSIONS)
         
-        chosen_full_names = random.sample(all_names, random.randint(1, 5))
+        chosen_full_names = random.sample(all_names, random.randint(1, 2))
         
         sentence_start = f"{i}. {intro}, "
         final_sentence = sentence_start

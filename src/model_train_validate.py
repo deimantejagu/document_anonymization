@@ -8,10 +8,7 @@ from spacy.training import Example
 from sklearn.metrics import precision_score, recall_score, f1_score
 
 def train_spacy(model_path, optimizer_path, train_data_path, validation_data_path, epochs, batch_size, validation_interval):
-    if Path(model_path).exists():
-        nlp = spacy.load(model_path)
-    else: 
-        nlp = spacy.load("lt_core_news_lg")
+    nlp = spacy.load(model_path)
 
     if "ner" not in nlp.pipe_names:
         ner = nlp.create_pipe("ner")
@@ -32,7 +29,7 @@ def train_spacy(model_path, optimizer_path, train_data_path, validation_data_pat
             with open(optimizer_path, "rb") as f:
                 optimizer = pickle.load(f)
         else:
-            optimizer = Adam(learn_rate = 0.0001)
+            optimizer = Adam(learn_rate = 1.e-4)
             
         for epoch in range(epochs):
             print("--------------------------------")
@@ -42,7 +39,7 @@ def train_spacy(model_path, optimizer_path, train_data_path, validation_data_pat
             examples = [Example.from_dict(nlp.make_doc(text), annotations) for text, annotations in data]
             for i in range(0, len(examples), batch_size):
                 batch = examples[i:i+batch_size]
-                nlp.update(batch, drop=0.3, sgd=optimizer, losses=losses)
+                nlp.update(batch, drop=0.5, sgd=optimizer, losses=losses)
                 
             ner_loss = losses.get("ner", 0)
             print(f"NER Loss: {ner_loss:.4f}", flush=True)
