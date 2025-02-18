@@ -8,7 +8,11 @@ from spacy.training import Example
 from sklearn.metrics import precision_score, recall_score, f1_score
 
 def train_spacy(model_path, optimizer_path, train_data_path, validation_data_path, epochs, batch_size, validation_interval):
-    nlp = spacy.load(model_path)
+    if Path(model_path).exists():
+        nlp = spacy.load(model_path)
+    else:
+        nlp = spacy.load("lt_core_news_lg")
+
     if "ner" not in nlp.pipe_names:
         ner = nlp.create_pipe("ner")
         nlp.add_pipe("ner", last=True)
