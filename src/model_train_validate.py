@@ -10,7 +10,7 @@ from sklearn.metrics import precision_score, recall_score, f1_score
 def train_spacy(model_path, optimizer_path, train_data_path, validation_data_path, epochs, batch_size, validation_interval):
     if Path(model_path).exists():
         nlp = spacy.load(model_path)
-    else:
+    else: 
         nlp = spacy.load("lt_core_news_lg")
 
     if "ner" not in nlp.pipe_names:

@@ -3,8 +3,8 @@ from .file_storage import save_data
 from .names_generator import create_names_patterns
 from .dataset_phrases import INTRODUCTIONS, ACTIONS, CONCLUSIONS
 
-def generate_dataset(num_sentences):
-    all_names = create_names_patterns()
+def generate_dataset(num_sentences, names_counter):
+    all_names = create_names_patterns(names_counter)
     random.shuffle(all_names)
 
     random.shuffle(INTRODUCTIONS)
