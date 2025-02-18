@@ -1,4 +1,5 @@
 __pycache__/
 src/documents/
 src/processed_documents/
-src/dataset/
+src/dataset/predictions.json
+src/dataset/train_dataset.json
