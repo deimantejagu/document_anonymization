@@ -40,7 +40,7 @@ def train_spacy(model_path, optimizer_path, train_data_path, validation_data_pat
             examples = [Example.from_dict(nlp.make_doc(text), annotations) for text, annotations in data]
             for i in range(0, len(examples), batch_size):
                 batch = examples[i:i+batch_size]
-                nlp.update(batch, drop=0.5, sgd=optimizer, losses=losses)
+                nlp.update(batch, drop=0.6, sgd=optimizer, losses=losses)
                 
             ner_loss = losses.get("ner", 0)
             print(f"NER Loss: {ner_loss:.4f}", flush=True)

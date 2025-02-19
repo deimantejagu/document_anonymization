@@ -3,3 +3,5 @@ src/documents/
 src/processed_documents/
 src/dataset/predictions.json
 src/dataset/train_dataset.json
+src/spaCy/model
+src/spaCy/optimizer.pkl
